@@ -18,7 +18,7 @@
                 <div class="parks__list">
                     Parks List
                     <label for="state">Choose a state!</label>
-                    <select id="state" name="state">
+                    <select class="stateChoice" id="state" name="state">
                         <option value="al">Alabama</option>
                         <option value="ak">Alaska</option>
                         <option value="az">Arizona</option>
@@ -70,6 +70,9 @@
                         <option value="wv">West Virginia</option>
                         <option value="wi">Wisconsin</option>
                         <option value="wy">Wyoming</option>
+                    </select>
+                    <select class="parkChoice">
+                        
                     </select>
                     <!-- list stuff here -->
                 </div>
@@ -274,5 +277,11 @@
     <footer class="footer body__footer">
         <h4>I've got a footer here; see my toes?</h4>
     </footer>
+
+    <script src="scripts/parks/parkConverter.js"></script>
+    <script src="scripts/parks/ParkProvider.js"></script>
+    <script src="scripts/parks/parkList.js"></script>
+
+    <script src="scripts/main.js"></script>
 </body>
 </html>
