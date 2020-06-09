@@ -17,9 +17,9 @@ attractionTypeDropdown.addEventListener("change", changeEvent  => {
 
 
 
-counter = 0
-const attractionsList = (locals) => {
 
+const attractionsList = (locals) => {
+console.log(locals)
     for (const currentAttractionsObject of locals) {
         const attractionsHTML = attractionsConverter(currentAttractionsObject)
         const attractionsDivElement = document.querySelector(".attractions__dropdown")
@@ -32,14 +32,17 @@ const attractionsItineraryList = (locals) => {
         const attractionsHTML = attractionsItineraryConverter(locals)
         const attractionsArticleElement = document.querySelector(".preview__attractions")
         attractionsArticleElement.innerHTML += attractionsHTML
+        // debugger
+        const attractionDetailVisibilityButtons = document.querySelectorAll(`.button__details`)
+        attractionDetailVisibilityButtons.forEach(button => {
+            button.addEventListener("click", clickEvent => {
+                document.getElementById(`details__${clickEvent.target.id}`).classList.toggle("hidden__details")
+                })
+                
+        });
         
-        const attractionDetailVisibilityButton = document.querySelectorAll(`.button__details`)
         
-        counter ++
-        if(counter >= 1) {
-            attractionDetailVisibilityButton.addEventListener("click", clickEvent => {
-                document.querySelector(`.attraction__details`).classList.toggle("hidden__details")
-            })
-        }
+        
+        
 }
 

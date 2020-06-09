@@ -26,8 +26,8 @@ const attractionsItineraryConverter = (attractionsObject) => {
         <img class="attraction__picture" src="${attractionsObject.picture}"
             alt="${attractionsObject.name} Info: ${attractionsObject.description}" />
     </div>
-    <button name="details__button" class="button__details">Details</button>
-    <div class="attraction__details hidden__details">
+    <button name="details__button" class="button__details" id="${attractionsObject.id}">Details</button>
+    <div class="attraction__details hidden__details" id="details__${attractionsObject.id}">
         Details: <br>
             <strong>${attractionsObject.name}</strong><br>
             ${attractionsObject.city}, ${attractionsObject.state}<br>
