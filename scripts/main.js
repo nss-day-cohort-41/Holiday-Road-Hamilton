@@ -1,0 +1,1 @@
+getAttractionData().then((response) => attractionsList(response))
