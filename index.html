@@ -20,7 +20,10 @@
                     <!-- list stuff here -->
                 </div>
                 <div class="attractions__list">
-                    Attractions List
+                    <label for="attractions__label">Attractions list</label>
+                    <select name="attractions__dropdown" id="attractions" class="attractions__dropdown">
+                        <option value=" ">                </option>
+                    </select>
                     <!-- list stuff here -->
                 </div>
                 <div class="eateries__list">
@@ -57,60 +60,7 @@
                         </article>
                         <h4>Attraction</h4>
                         <article class="preview__attractions">
-                            <p>Fashion axe green juice actually +1 listicle trust fund helvetica roof party mixtape artisan
-                                cliche. Freegan tumblr before they sold out salvia kale chips banjo, hell of migas yuccie
-                                subway tile cardigan sriracha taiyaki celiac slow-carb. Put a bird on it pickled
-                                fingerstache gentrify four loko selfies small batch williamsburg sartorial twee echo park
-                                YOLO 90's ugh lomo. Kickstarter cray four dollar toast la croix photo booth. VHS disrupt
-                                green juice crucifix copper mug humblebrag synth celiac.</p>
-        
-                            <p>Single-origin coffee affogato vape adaptogen kinfolk chia. 90's irony tilde hammock biodiesel
-                                hot chicken vape blue bottle pop-up. Pour-over tacos disrupt listicle gochujang
-                                farm-to-table. Farm-to-table freegan yr, iPhone fingerstache seitan deep v. Crucifix
-                                messenger bag ramps, actually stumptown sartorial lomo cloud bread. Godard knausgaard jean
-                                shorts meggings, forage cardigan VHS echo park activated charcoal ramps offal yr. Austin
-                                thundercats drinking vinegar tilde, migas schlitz hoodie farm-to-table.</p>
-        
-                            <p>Fashion axe green juice actually +1 listicle trust fund helvetica roof party mixtape artisan
-                                cliche. Freegan tumblr before they sold out salvia kale chips banjo, hell of migas yuccie
-                                subway tile cardigan sriracha taiyaki celiac slow-carb. Put a bird on it pickled
-                                fingerstache gentrify four loko selfies small batch williamsburg sartorial twee echo park
-                                YOLO 90's ugh lomo. Kickstarter cray four dollar toast la croix photo booth. VHS disrupt
-                                green juice crucifix copper mug humblebrag synth celiac.</p>
-                            <p>
-                                Single-origin coffee affogato vape adaptogen kinfolk chia. 90's irony tilde hammock
-                                biodiesel hot chicken vape blue bottle pop-up. Pour-over tacos disrupt listicle gochujang
-                                farm-to-table. Farm-to-table freegan yr, iPhone fingerstache seitan deep v. Crucifix
-                                messenger bag ramps, actually stumptown sartorial lomo cloud bread. Godard knausgaard jean
-                                shorts meggings, forage cardigan VHS echo park activated charcoal ramps offal yr. Austin
-                                thundercats drinking vinegar tilde, migas schlitz hoodie farm-to-table.</p>
-                            <p>Fashion axe green juice actually +1 listicle trust fund helvetica roof party mixtape artisan
-                                cliche. Freegan tumblr before they sold out salvia kale chips banjo, hell of migas yuccie
-                                subway tile cardigan sriracha taiyaki celiac slow-carb. Put a bird on it pickled
-                                fingerstache gentrify four loko selfies small batch williamsburg sartorial twee echo park
-                                YOLO 90's ugh lomo. Kickstarter cray four dollar toast la croix photo booth. VHS disrupt
-                                green juice crucifix copper mug humblebrag synth celiac.</p>
-        
-                            <p>Single-origin coffee affogato vape adaptogen kinfolk chia. 90's irony tilde hammock biodiesel
-                                hot chicken vape blue bottle pop-up. Pour-over tacos disrupt listicle gochujang
-                                farm-to-table. Farm-to-table freegan yr, iPhone fingerstache seitan deep v. Crucifix
-                                messenger bag ramps, actually stumptown sartorial lomo cloud bread. Godard knausgaard jean
-                                shorts meggings, forage cardigan VHS echo park activated charcoal ramps offal yr. Austin
-                                thundercats drinking vinegar tilde, migas schlitz hoodie farm-to-table.</p>
-        
-                            <p>Fashion axe green juice actually +1 listicle trust fund helvetica roof party mixtape artisan
-                                cliche. Freegan tumblr before they sold out salvia kale chips banjo, hell of migas yuccie
-                                subway tile cardigan sriracha taiyaki celiac slow-carb. Put a bird on it pickled
-                                fingerstache gentrify four loko selfies small batch williamsburg sartorial twee echo park
-                                YOLO 90's ugh lomo. Kickstarter cray four dollar toast la croix photo booth. VHS disrupt
-                                green juice crucifix copper mug humblebrag synth celiac.</p>
-                            <p>
-                                Single-origin coffee affogato vape adaptogen kinfolk chia. 90's irony tilde hammock
-                                biodiesel hot chicken vape blue bottle pop-up. Pour-over tacos disrupt listicle gochujang
-                                farm-to-table. Farm-to-table freegan yr, iPhone fingerstache seitan deep v. Crucifix
-                                messenger bag ramps, actually stumptown sartorial lomo cloud bread. Godard knausgaard jean
-                                shorts meggings, forage cardigan VHS echo park activated charcoal ramps offal yr. Austin
-                                thundercats drinking vinegar tilde, migas schlitz hoodie farm-to-table.</p>
+                           
         
                         </article>
                         <h4>Eatery</h4>
@@ -221,7 +171,11 @@
     <footer class="footer body__footer">
         <h4>I've got a footer here; see my toes?</h4>
     </footer>
+
     <script src="scripts/eateries/EateryProvider.js"></script>
+    <script src="scripts/attractions/AttractionProvider.js"></script>
+    <script src="scripts/attractions/AttractionConverter.js"></script>
+    <script src="scripts/attractions/AttractionList.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>

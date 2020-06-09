@@ -126,6 +126,10 @@ html, body {
 
 }
 
+.hidden__details {
+    display: none;
+}
+
 .button__saveItinerary {
     width: 15vw;
     height: 10vh;
