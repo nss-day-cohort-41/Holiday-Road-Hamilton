@@ -35,7 +35,9 @@ parkTypeDropdown.addEventListener("change", (changeEvent) => {
 })
 
 const displayParkList = (parkListArray) => {
-console.log(parkListArray)
+    
+    console.log(parkListArray)
+    // parkCollection is an object with an array in the "data" key
     for (parkListObject of parkListArray.data) {
         const parkListHTML = parkDropdownConverter(parkListObject)
 
