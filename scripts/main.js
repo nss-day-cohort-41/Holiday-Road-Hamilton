@@ -1,8 +1,5 @@
-getParkData().then(
-    (response) => {
-        displayParkList(response)
-    }
-)
+getParkData()
+
 // Testing Eatery Fetch
 eateryAPI.getEateries().then(populateEaterySelect)
 
