@@ -1,9 +1,7 @@
-const weatherConverter = (weatherObject) => {
-  var counter=0
-  counter ++  
+const weatherConverter = (weatherObject,dayCnt) => {
   return ` 
       <div class="weather__box">
-        <h3>Day ${counter}</h3>
+        <h3>Day ${dayCnt}</h3>
         <p>Description: ${weatherObject.weather[0].description}</p>
         <p>Temperature Low: ${weatherObject.temp.min} F</p>
         <p>Temperature High: ${weatherObject.temp.max} F</p>
