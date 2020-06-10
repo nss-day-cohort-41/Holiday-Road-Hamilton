@@ -33,19 +33,50 @@ const previewEateries = document.querySelector(".preview__eateries");
 
 const clearEateryList = () => previewEateries.innerHTML = ""
 
+var activeModal = "";
+var span = "";
 
 const displayEateriesPreview = (eaterySelectedCollection) => {
 
     for (const currEateryObject of eaterySelectedCollection) {
+ 
         const eateryHTML = eateryConverter(currEateryObject);
         previewEateries.innerHTML += eateryHTML
         const eateryDetailVisibilityButtons = document.querySelectorAll(`.button__details`)
         eateryDetailVisibilityButtons.forEach(button => {
             button.addEventListener("click", clickEvent => {
-                document.getElementById(`eatery__details__${clickEvent.target.id}`).classList.toggle("hidden__details")
+                // document.getElementById(`eatery__details__${clickEvent.target.id}`).classList.toggle("hidden__details")
+                document.getElementById(`modal__eatery__details__${clickEvent.target.id}`).style.display = "block";
+                activeModal = document.getElementById(`modal__eatery__details__${clickEvent.target.id}`);
                 })
-                
-        });
-
+            });
+        
     }
 }
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == activeModal) {
+      activeModal.style.display = "none";
+    }
+  }
+
+
+/*
+                var modal = document.getElementById(`modal__eatery__details__${clickEvent.target.id}`)
+                // Get the <span> element that closes the modal
+                var span = document.getElementsByClassName("close")[0];
+
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function() {
+                    document.getElementById(`modal__eatery__details__${clickEvent.target.id}`) = "none";
+
+                }
+
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function(event) {
+                    if (event.target == modal) {
+                    document.getElementById(`modal__eatery__details__${clickEvent.target.id}`).style.display = "none";
+                    }
+                }
+                */
