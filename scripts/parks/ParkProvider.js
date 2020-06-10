@@ -1,6 +1,9 @@
 // array to store park data in once it has been fetched
 let parkCollection = []
 
+// object to store chosen park
+let natPark = {}
+
 // get selection of state from drop down
 let e = document.getElementById("state")
 let stateValue = e.options[e.selectedIndex].value
