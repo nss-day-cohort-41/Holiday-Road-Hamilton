@@ -2,9 +2,13 @@
 const stateTypeDropdown = document.querySelector(".stateChoice")
 const parkTypeDropdown = document.querySelector(".parkChoice")
 
+//magic array that fixes some bullshit
+let parkCollection2 = []
+
 const clearParkArray = () => {
     parkCollection = []
 }
+
 const clearParkDropdown = () => parkTypeDropdown.innerHTML = ""
 
 
@@ -19,25 +23,39 @@ stateTypeDropdown.addEventListener("change", (changeEvent) => {
     parkQuery = "https://developer.nps.gov/api/v1/parks?stateCode=" + userChoice + "&api_key=WPMjMAxhvLivTCo3ad7Y1hb9QNTV8dMj910THzHP"
     getParkData().then((response) => displayParkList(response))
 
+    //send data to userChoice global variable
+
 })
 
 parkTypeDropdown.addEventListener("change", (changeEvent) => {
     //get the value chosen by the user
     const userChoice = changeEvent.target.value
-    
-    // This is just to change the park selection for everything
+    for(currentParkObject of parkCollection2.data) {
+        // console.log(parkCollection)
+        // console.log(currentParkObject.id)
+        if (userChoice === currentParkObject.id) {
 
+            natPark = currentParkObject
+        }
+    }
+    // This is just to change the park selection for everything
+    console.log(natPark)
 
 })
 
 const displayParkList = (parkListArray) => {
     
-    console.log(parkListArray)
+    // i dont even know
+    parkCollection2 = parkListArray
+    console.log(parkCollection)
+    
+    const parkListElement = document.querySelector(".parkChoice")
+    parkListElement.innerHTML = `<option value="">Select a Park</option>`
     // parkCollection is an object with an array in the "data" key
     for (parkListObject of parkListArray.data) {
         const parkListHTML = parkDropdownConverter(parkListObject)
 
-        const parkListElement = document.querySelector(".parkChoice")
+        // const parkListElement = document.querySelector(".parkChoice")
         parkListElement.innerHTML += parkListHTML
     }
 }
