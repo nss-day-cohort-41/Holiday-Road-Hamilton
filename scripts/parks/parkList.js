@@ -38,11 +38,16 @@ parkTypeDropdown.addEventListener("change", (changeEvent) => {
             natPark = currentParkObject
         }
     }
+    displayParkPreview()
     // This is just to change the park selection for everything
     console.log(natPark)
 
+    //call weather forecast
+    getWeather(natPark.latitude, natPark.longitude)
+
 })
 
+//display parks in dropdown
 const displayParkList = (parkListArray) => {
     
     // i dont even know
@@ -58,4 +63,17 @@ const displayParkList = (parkListArray) => {
         // const parkListElement = document.querySelector(".parkChoice")
         parkListElement.innerHTML += parkListHTML
     }
+}
+
+const previewParkElement = document.querySelector(".preview__parks")
+
+const clearParkPreview = () => previewParkElement.innerHTML = ""
+
+const displayParkPreview = () => {
+
+    clearParkPreview()
+
+    const parkPreviewHTML = parkPreviewConverter(natPark)
+
+    previewParkElement.innerHTML = parkPreviewHTML
 }
