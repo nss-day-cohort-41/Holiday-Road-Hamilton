@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Enriqueta:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
     <title>Holiday Road Itinerary Planner</title>
 </head>
@@ -16,10 +17,8 @@
             
             <div class="container__left__upper">
                 <div class="parks__list">
-                    Parks List
-                    <label for="state">Choose a state!</label>
-                    <select class="stateChoice" id="state" name="state">
-                        <option value="">Select a state</option>
+                    <label for="state">State & Parks Lists</label>
+                    <br><select class="stateChoice" id="state" name="state">
                         <option value="al">Alabama</option>
                         <option value="ak">Alaska</option>
                         <option value="az">Arizona</option>
@@ -72,21 +71,20 @@
                         <option value="wi">Wisconsin</option>
                         <option value="wy">Wyoming</option>
                     </select>
-                    <select class="parkChoice">
+                    <br><select class="parkChoice">
                         <option value="">Select a Park</option>
-                        
                     </select>
                     <!-- list stuff here -->
                 </div>
                 <div class="attractions__list">
-                    <label for="attractions__label">Attractions list</label>
+                    <label for="attractions__dropdown">Attractions List</label>
                     <select name="attractions__dropdown" id="attractions" class="attractions__dropdown">
                         <option value=" ">                </option>
                     </select>
                     <!-- list stuff here -->
                 </div>
                 <div class="eateries__list">
-                    Eateries List
+                    <label for="eatery__dropdown">Eatery List</label>
                     <select id="eatery__dropdown" name="eatery__dropdown"></select>
                     <!-- list stuff here -->
                 </div>
@@ -237,6 +235,8 @@
     <script src="scripts/parks/ParkProvider.js"></script>
     <script src="scripts/parks/parkList.js"></script>
 
+    <script src="scripts/eateries/EateryConverter.js"></script>
+    <script src="scripts/eateries/EateryList.js"></script>
     <script src="scripts/eateries/EateryProvider.js"></script>
     <script src="scripts/attractions/AttractionProvider.js"></script>
     <script src="scripts/attractions/AttractionConverter.js"></script>
