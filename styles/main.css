@@ -306,7 +306,18 @@ select {
     margin-top:10px;
     margin-bottom:10px;
   }
-
+  .attraction__picture {
+      width: 60%;
+      height: auto;
+  }
+  .eatery__picture {
+    width: 60%;
+    height: auto;
+}
+.park__pic {
+    width: 60%;
+    height: auto;
+}
   footer {
     display: flex;
     color: dimgrey;

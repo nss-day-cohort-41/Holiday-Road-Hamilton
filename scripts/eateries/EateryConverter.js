@@ -16,9 +16,11 @@ const eateryConverter = (eateryObject) => {
     <section class="section__eatery">
         <div class="div__section__eatery">
         <h1>Name: ${eateryObject.businessName}</h1>
-         <img class="eatery__picture" src=""
+         <img class="eatery__picture" src="${eateryObject.picture}"
             alt="${eateryObject.businessName} Info: ${eateryObject.description}" />
         </div>
+        <div id="myModal" class="modal">
+
         <button name="details__button" class="button__details" id="${eateryObject.id}">Details</button>
     </section>
     <div class="modal__eatery__details" id="modal__eatery__details__${eateryObject.id}">
