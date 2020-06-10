@@ -1,4 +1,4 @@
-export const Weather = (weatherObject) => { 
+export const Weather = (weatherObject) => {
     return `
       <div class="weather__box">
         <h3>Forecast</h3>

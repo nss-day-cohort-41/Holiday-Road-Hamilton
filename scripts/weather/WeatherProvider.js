@@ -27,3 +27,4 @@ api.openweathermap.org/data/2.5/forecast?zip=37221&
 units=imperial&&appid=c8fb6767591a6ee3fec1033c2dd048dc
 lat={lat}&lon={lon}&appid={your api key}
 */
+

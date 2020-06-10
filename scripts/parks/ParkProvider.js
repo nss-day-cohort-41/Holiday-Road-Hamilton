@@ -19,8 +19,19 @@ const getParkData = () => {
     .then(
         (arrayOfParks) => {
             parkCollection = arrayOfParks
-            console.log(parkCollection)
+            return arrayOfParks
         }
     )
 }
 
+// const parkList = (alpha) => {
+
+//     console.log(alpha)
+//     for (const park of alpha) {
+//         parkListArray.push(park)
+        
+//     }
+
+
+//     return parkListArray
+// }
