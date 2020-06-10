@@ -1,4 +1,4 @@
-export const Weather = (weatherObject) => {
+export const WeatherConverter = (weatherObject) => {
     return `
       <div class="weather__box">
         <h3>Forecast</h3>
@@ -9,4 +9,6 @@ export const Weather = (weatherObject) => {
       </div>
     `
   }
+
+  
   
