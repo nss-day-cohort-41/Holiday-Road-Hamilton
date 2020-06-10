@@ -1,4 +1,16 @@
 //api key c8fb6767591a6ee3fec1033c2dd048dc
+import { keys } from '../Settings.js'
+
+const eventHub = document.querySelector(".weathercontainer")
+
+export const getWeather = (lat,long) => {
+    return fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&long=${long}&units=imperial&&appid=${keys.weatherKey}`)
+      .then((response) => response.json())
+      .then((parsedWeather) => {
+        weather = parsedWeather.list[0]
+      })
+      .then(dispatchWeatherChangeEvent)
+  }
 
 //Conversion Lat Long
 const apiReturn = "lat:123123, long:-9999999.99"
@@ -10,5 +22,9 @@ const latlong = (apiReturn) => {
 }
 latlong(apiReturn)
 
-//
-api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={your api key}
+/*
+api.openweathermap.org/data/2.5/forecast?zip=37221&
+units=imperial&&appid=c8fb6767591a6ee3fec1033c2dd048dc
+lat={lat}&lon={lon}&appid={your api key}
+*/
+
