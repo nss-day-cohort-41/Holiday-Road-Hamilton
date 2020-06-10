@@ -15,16 +15,10 @@ stateTypeDropdown.addEventListener("change", (changeEvent) => {
     //clear array
     clearParkArray()
     clearParkDropdown()
-    //refill array
+    //refill array and refill the park list
     parkQuery = "https://developer.nps.gov/api/v1/parks?stateCode=" + userChoice + "&api_key=WPMjMAxhvLivTCo3ad7Y1hb9QNTV8dMj910THzHP"
     getParkData().then((response) => displayParkList(response))
 
-    // clearParkDropdown()
-    // displayParkList(parkCollection)
-    // console.log(parkQuery)
-    // console.log(parkCollection)
-
-    //clear
 })
 
 parkTypeDropdown.addEventListener("change", (changeEvent) => {
@@ -33,10 +27,6 @@ parkTypeDropdown.addEventListener("change", (changeEvent) => {
     
     // This is just to change the park selection for everything
 
-
-    // clearParkDropdown()
-    // getParkData()
-    // displayParkList(parkCollection)
 
 })
 
