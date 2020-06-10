@@ -1,21 +1,32 @@
 html, body {
     height: 100%;
     margin: 0;
+    font-family: 'Enriqueta', 'Times New Roman', Times, serif;
   }
 
-.banner {
+.banner  {
     display: flex;
-    color: dimgrey;
-    flex-flow: column;
+    color: rgb(168, 194, 218);
+    text-shadow: 1px 1px #2d609b, 
+        2px 2px #856fb9, 
+        3px 3px #9b73dd;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-end;
+    background-color: #000000;
+    background-image: url(../images/banner3_lg.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 99%;
-    height:10%;
+    height:20%;
     margin: 0 3px 3px 3px;
     padding: .5em;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
-    justify-content: center;
+    
 }
+
 .container__main {
     display: flex;
     color: dimgrey;
@@ -26,16 +37,14 @@ html, body {
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
-    /* overflow: hidden; */
-
 }
 
 .container__upper {
     display: flex;
     flex-wrap: row wrap;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     width: 100%;
-    height: 10%;
+    height: 15%;
 }
 
 .container__left {
@@ -47,25 +56,24 @@ html, body {
 
 .container__left__upper {
     display: flex;
-    flex-wrap: row wrap;
-    height: 100%;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
     flex: 7;
+    width: 100%;
     margin: .2vh .2vw;
-    border: 1px dotted darkgrey;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
     background-color: #f8f8f8;
-    overflow: auto;
+    height: auto;
+    position: relative;
+    
+
 }
 
 .container__right__upper {
     display: inline;
     justify-content: center;
-    padding: 0 0 0 2px;
     color: dimgray;
-    height: 100%;
+    font-size: 1.5vw;
+    height: auto;
     flex: 2;
     margin: .2vh .2vw;
     border: 1px dotted darkgrey;
@@ -73,20 +81,50 @@ html, body {
     border: 2px solid #ccc;
     border-radius: 4px;
     background-color: #f8f8f8;
-    overflow: hidden;
+    overflow: auto;
     
 }
 
-.parks__list, .attractions__list, .eateries__list {
-    /* width: 33%; */
-    flex: 0 33%;
-    padding: 12px 20px;
+.container__right__upper h4 {
+    padding: 0 0 0 .5vw; 
+    font-weight: 500;
+}
+
+.attractions__list, .eateries__list {
+    flex: 0 31%;
+    width: 31%;
+    padding: .5vh 0 0 .5vw;
     margin: .2vh .2vw;
+    font-size: 1.5vw;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
     background-color: #f8f8f8;
-    resize: none;
+    height: auto;
+}
+
+.parks__list {
+    flex: 0 35%;
+    padding: .5vh 0 0 .5vw;
+    margin: .2vh .2vw;
+    font-size: 1.5vw;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    height: auto;
+}
+
+select {
+    max-width: 70%;
+    padding: 0 .3vw 0 .3vw;
+    height: 20%;
+    background: 0;
+    text-align: left;
+    vertical-align: middle;
+    font-size: .9vw;;
+    margin-bottom: 1em;
+    border-radius: 5px;
 }
 
 .container__left__lower {
@@ -126,6 +164,26 @@ html, body {
 
 }
 
+.button__details {
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	border: none;
+	transform: rotateX(45deg);
+	box-shadow: 0px 10px 5px rgba(0, 0, 0, .3);
+	cursor: pointer;
+
+}
+
+.button__details:active {
+    transform: scale(.8);
+    transition-duration: .5s;
+    box-shadow: none;
+}
+
 .hidden__details {
     display: none;
 }
@@ -156,7 +214,7 @@ html, body {
 .aside__saved__itineraries {
     display: flex;
     flex-direction: column;
-    background-color: rgb(64, 56, 85);
+    background-color: #38547b;
      padding:0.01em 16px;
      box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
      border-radius: 5px;
@@ -170,7 +228,7 @@ html, body {
     flex: 0 0 30%;
     box-sizing: border-box;
     box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
-    background-color: #4b5e65;
+    background-color: #2d609b;
     padding: 12px 20px;
     margin: .2vh .2vw;
     border-radius: 5px;
