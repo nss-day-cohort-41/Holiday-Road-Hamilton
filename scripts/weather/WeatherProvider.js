@@ -9,7 +9,7 @@ export const getWeather = (lat,long) => {
       .then((parsedWeather) => {
         weather = parsedWeather.list[0]
       })
-      .then(dispatchWeatherChangeEvent)
+      .then(WeatherConverter)
   }
 
 //Conversion Lat Long
