@@ -189,7 +189,10 @@ html, body {
     margin-top:10px;
     margin-bottom:10px;
   }
-
+  .attraction__picture {
+      width: 60%;
+      height: auto;
+  }
   footer {
     display: flex;
     color: dimgrey;

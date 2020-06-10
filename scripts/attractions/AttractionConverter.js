@@ -29,9 +29,9 @@ const attractionsItineraryConverter = (attractionsObject) => {
     <button name="details__button" class="button__details" id="${attractionsObject.id}">Details</button>
     <div class="attraction__details hidden__details" id="details__${attractionsObject.id}">
         Details: <br>
-            <strong>${attractionsObject.name}</strong><br>
+            Name <strong>${attractionsObject.name}</strong><br>
             ${attractionsObject.city}, ${attractionsObject.state}<br>
-            ${attractionsObject.description}<br>
+            Description: ${attractionsObject.description}<br>
             Souveniers available: ${souvenirs}<br>
             Restrooms available: ${restrooms}
     </div>
