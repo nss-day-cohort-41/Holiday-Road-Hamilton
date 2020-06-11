@@ -1453,8 +1453,8 @@
         "contacts": {
           "phoneNumbers": [
             {
-              "phoneNumber": "9076443472",
-              "description": "",
+              "phoneNumber": "3025446363",
+              "description": "This phone number is not staffed. You can leave a message on the park's main phone number (302-544-6363) and we will return your call as soon as possible. If you are visiting one of the seven sites, and need specific information, please refer to the \"Places to Go\" page for phone numbers and addresses of each site.",
               "extension": "",
               "type": "Voice"
             }
@@ -1462,49 +1462,140 @@
           "emailAddresses": [
             {
               "description": "",
-              "emailAddress": "rachel_mason@nps.gov"
+              "emailAddress": "firststate@nps.gov"
             }
           ]
         },
-        "states": "AK",
-        "longitude": "-166.5197218",
+        "states": "DE,PA",
+        "longitude": "-75.56353942",
         "activities": [
           {
-            "id": "5A2C91D1-50EC-4B24-8BED-A2E11A1892DF",
-            "name": "Birdwatching"
+            "id": "7CE6E935-F839-4FEC-A63E-052B1DEF39D2",
+            "name": "Biking"
           },
           {
-            "id": "B33DC9B6-0B7D-4322-BAD7-A13A34C584A3",
-            "name": "Guided Tours"
+            "id": "31F88DA6-696F-441F-89CF-D7B1415C4CB9",
+            "name": "Citizen Science"
           },
           {
-            "id": "A0631906-9672-4583-91DE-113B93DB6B6E",
-            "name": "Self-Guided Tours - Walking"
+            "id": "AE42B46C-E4B7-4889-A122-08FE180371AE",
+            "name": "Fishing"
           },
           {
-            "id": "0B685688-3405-4E2A-ABBA-E3069492EC50",
-            "name": "Wildlife Watching"
+            "id": "1DFACD97-1B9C-4F5A-80F2-05593604799E",
+            "name": "Food"
+          },
+          {
+            "id": "25FB188F-5AAD-459A-9092-28A9801709FF",
+            "name": "Freshwater Fishing"
+          },
+          {
+            "id": "45261C0A-00D8-4C27-A1F8-029F933A0D34",
+            "name": "Front-Country Hiking"
+          },
+          {
+            "id": "42FD78B9-2B90-4AA9-BC43-F10E9FEA8B5A",
+            "name": "Hands-On"
+          },
+          {
+            "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+            "name": "Hiking"
+          },
+          {
+            "id": "0307955A-B65C-4CE4-A780-EB36BAAADF0B",
+            "name": "Horse Trekking"
+          },
+          {
+            "id": "1886DA47-0AEC-4568-B9C2-8E9BC316AAAC",
+            "name": "Horseback Riding"
+          },
+          {
+            "id": "DF4A35E0-7983-4A3E-BC47-F37B872B0F25",
+            "name": "Junior Ranger Program"
+          },
+          {
+            "id": "B204DE60-5A24-43DD-8902-C81625A09A74",
+            "name": "Living History"
+          },
+          {
+            "id": "299CB934-88DC-474F-A33D-E43E29A149C2",
+            "name": "Mountain Biking"
+          },
+          {
+            "id": "C6D3230A-2CEA-4AFE-BFF3-DC1E2C2C4BB4",
+            "name": "Picnicking"
           }
         ],
         "entranceFees": [
           {
-            "cost": "6.0000",
-            "description": "The park is on private land owned by the Ounalashka Corporation.  To visit the historic area you need to purchase a permit.",
-            "title": "Land Use Permit - one person"
-          },
-          {
-            "cost": "10.0000",
-            "description": "The park is on private land owned by the Ounalashka Corporation.  To visit the historic area you need to purchase a permit.",
-            "title": "Land Use Permit - family"
+            "cost": "0.0000",
+            "description": "There are no fees to visit First State National Historical Park. Some partner sites may charge a small fee for special programs.",
+            "title": "First State Fees"
           }
         ],
-        "directionsInfo": "The park is located on Amaknak Island in the Aleutian Island chain. The island is located 800 miles west of Anchorage.  The island can be reached by commercial or charter air flights from Anchorage. Commercial flights to Unalaska include Pen Air and Alaska Airlines. The Alaska Marine Highway is a ferry service that is operated by the state that can be used to reach the island.  The Aleutian World War II Visitor Center is located at the Unalaska airport.",
-        "entrancePasses": [],
-        "directionsUrl": "http://www.nps.gov/aleu/planyourvisit/directions.htm",
-        "url": "https://www.nps.gov/aleu/index.htm",
-        "weatherInfo": "The Aleutian Islands are known for unpredictable and stormy weather. Rain, fog, and wind are common. Dress warmly and carry rain gear even in summer. Summer temperatures range from 45 to 65 degrees F. Early summer and fall often have clear sunny days with spectacular views of the surrounding volcanoes.",
-        "name": "Aleutian Islands World War II",
+        "directionsInfo": "Seven sites make up First State National Historical Park in Delaware and southeastern Pennsylvania. For details and directions for each site, please visit the visitor centers page below.",
+        "entrancePasses": [
+          {
+            "cost": "0.0000",
+            "description": "First State National Historical Park does not sell or accept park passes, because we are a fee-free park.",
+            "title": "First State Passes"
+          }
+        ],
+        "directionsUrl": "http://www.nps.gov/frst/planyourvisit/directions.htm",
+        "url": "https://www.nps.gov/frst/index.htm",
+        "weatherInfo": "For details and information, visit, http://www.nps.gov/frst/index.htm.",
+        "name": "First State",
         "operatingHours": [
+          {
+            "exceptions": [
+              {
+                "exceptionHours": {
+                  "wednesday": "8:00AM - 4:00PM",
+                  "monday": "8:00AM - 4:00PM",
+                  "thursday": "8:00AM - 4:00PM",
+                  "sunday": "8:00AM - 4:00PM",
+                  "tuesday": "8:00AM - 4:00PM",
+                  "friday": "8:00AM - 4:00PM",
+                  "saturday": "8:00AM - 4:00PM"
+                },
+                "startDate": "2020-06-11",
+                "name": "Hours of Operation for Brandywine Creek State Park Nature Center",
+                "endDate": "2020-12-25"
+              }
+            ],
+            "description": "Brandywine Valley consists of 1,100 acres of rolling hills and wooded areas are located along the Brandywine River and the arced border between northern Delaware and southern Pennsylvania.",
+            "standardHours": {
+              "wednesday": "Sunrise to Sunset",
+              "monday": "Sunrise to Sunset",
+              "thursday": "Sunrise to Sunset",
+              "sunday": "Sunrise to Sunset",
+              "tuesday": "Sunrise to Sunset",
+              "friday": "Sunrise to Sunset",
+              "saturday": "Sunrise to Sunset"
+            },
+            "name": "Brandywine Valley"
+          },
+          {
+            "exceptions": [
+              {
+                "exceptionHours": {},
+                "startDate": "2020-05-21",
+                "name": "Closed Until Further Notice",
+                "endDate": "2020-06-10"
+              }
+            ],
+            "description": "It was here, along the banks of the Christina River over 375 years ago, that the first Swedish and Finnish American settlers aboard the Kalmar Nyckel and the Fogel Grip landed and settled the first American Swedish colony, New Sweden.",
+            "standardHours": {
+              "wednesday": "10:00AM - 4:00PM",
+              "monday": "Closed",
+              "thursday": "10:00AM - 4:00PM",
+              "sunday": "12:00PM - 4:00PM",
+              "tuesday": "10:00AM - 4:00PM",
+              "friday": "10:00AM - 4:00PM",
+              "saturday": "10:00AM - 4:00PM"
+            },
+            "name": "Fort Christina"
+          },
           {
             "exceptions": [
               {
@@ -1512,324 +1603,412 @@
                   "wednesday": "Closed",
                   "monday": "Closed",
                   "thursday": "Closed",
+                  "sunday": "Closed",
                   "tuesday": "Closed",
                   "friday": "Closed",
                   "saturday": "Closed"
                 },
-                "startDate": "2018-09-03",
-                "name": "Winter",
-                "endDate": "2018-05-28"
-              },
+                "startDate": "2020-03-15",
+                "name": "Closed Due to COVID-19",
+                "endDate": "2020-07-15"
+              }
+            ],
+            "description": "The Church known as \"the nation's oldest church building still used for worship as originally built\" began construction in 1698 and was completed by 1699. The burial ground's 2,000 gravestones reveal hundreds of years of history.",
+            "standardHours": {
+              "wednesday": "10:00AM - 4:00PM",
+              "monday": "Closed",
+              "thursday": "10:00AM - 4:00PM",
+              "sunday": "Closed",
+              "tuesday": "Closed",
+              "friday": "10:00AM - 4:00PM",
+              "saturday": "10:00AM - 4:00PM"
+            },
+            "name": "Old Swedes Church"
+          },
+          {
+            "exceptions": [
               {
                 "exceptionHours": {
                   "wednesday": "Closed",
                   "monday": "Closed",
                   "thursday": "Closed",
+                  "sunday": "Closed",
                   "tuesday": "Closed",
                   "friday": "Closed",
                   "saturday": "Closed"
                 },
-                "startDate": "2015-07-04",
-                "name": "Fourth of July",
-                "endDate": "2015-07-04"
+                "startDate": "2020-03-24",
+                "name": "Temporary Restricted Hours",
+                "endDate": "2020-07-15"
               }
             ],
-            "description": "",
+            "description": "Historic New Castle served as the colonial capital of Delaware until 1777 and provides valuable stories of our country's earliest settlers and founding fathers. The museum is closed on state holidays.",
             "standardHours": {
-              "wednesday": "9:00AM - 10:00AM",
-              "monday": "9:00AM - 10:00AM",
-              "thursday": "9:00AM - 10:00AM",
-              "sunday": "9:00AM - 10:00AM",
-              "tuesday": "9:00AM - 10:00AM",
-              "friday": "9:00AM - 10:00AM",
-              "saturday": "9:00AM - 10:00AM"
+              "wednesday": "10:00AM - 4:30PM",
+              "monday": "Closed",
+              "thursday": "10:00AM - 4:30PM",
+              "sunday": "1:30PM - 4:30PM",
+              "tuesday": "10:00AM - 4:30PM",
+              "friday": "10:00AM - 4:30PM",
+              "saturday": "10:00AM - 4:30PM"
             },
-            "name": "Summer Hours"
+            "name": "New Castle Court House Museum"
+          },
+          {
+            "exceptions": [
+              {
+                "exceptionHours": {
+                  "wednesday": "Closed",
+                  "monday": "Closed",
+                  "thursday": "Closed",
+                  "sunday": "Closed",
+                  "tuesday": "Closed",
+                  "friday": "Closed",
+                  "saturday": "Closed"
+                },
+                "startDate": "2020-03-24",
+                "name": "Temporary Restricted Hours",
+                "endDate": "2020-07-15"
+              }
+            ],
+            "description": "Home to John Dickinson, known as the \"penman of the Revolution\" because his writings helped inspire colonial opposition to Great Britain, this site was built in 1739 and located about 6 miles southeast of The Green in Dover.",
+            "standardHours": {
+              "wednesday": "10:00AM - 4:30PM",
+              "monday": "Closed",
+              "thursday": "10:00AM - 4:30PM",
+              "sunday": "Closed",
+              "tuesday": "10:00AM - 4:30PM",
+              "friday": "10:00AM - 4:30PM",
+              "saturday": "10:00AM - 4:30PM"
+            },
+            "name": "John Dickinson Plantation"
+          },
+          {
+            "exceptions": [
+              {
+                "exceptionHours": {
+                  "wednesday": "Closed",
+                  "monday": "Closed",
+                  "thursday": "Closed",
+                  "sunday": "Closed",
+                  "tuesday": "Closed",
+                  "friday": "Closed",
+                  "saturday": "Closed"
+                },
+                "startDate": "2020-03-24",
+                "name": "Closed Due to COVID-19",
+                "endDate": "2020-07-15"
+              }
+            ],
+            "description": "This house, built in 1665 in Lewes, Delaware by early Dutch settlers, is thought to be built thirty years after the destruction of the nearby ill-fated Zwaanendael colony, one of the first Dutch settlements in America, and first European settlement in Delaware. Please visit a the \"Hours of Operations\" page to view a list of dates and hours the house will be open for tours. \n\nPlease visit the Operating Hours & Seasons page for more information: https://www.nps.gov/frst/planyourvisit/hours.htm",
+            "standardHours": {
+              "wednesday": "12:00PM - 4:00PM",
+              "monday": "12:00PM - 4:00PM",
+              "thursday": "12:00PM - 4:00PM",
+              "sunday": "12:00PM - 4:00PM",
+              "tuesday": "12:00PM - 4:00PM",
+              "friday": "12:00PM - 4:00PM",
+              "saturday": "12:00PM - 4:00PM"
+            },
+            "name": "Ryves Holt House"
+          },
+          {
+            "exceptions": [
+              {
+                "exceptionHours": {
+                  "wednesday": "9:00AM - 4:30PM",
+                  "monday": "9:00AM - 4:30PM",
+                  "thursday": "9:00AM - 4:30PM",
+                  "sunday": "Closed",
+                  "tuesday": "9:00AM - 4:30PM",
+                  "friday": "9:00AM - 4:30PM",
+                  "saturday": "9:00AM - 4:30PM"
+                },
+                "startDate": "2020-06-11",
+                "name": "Hours of Operation for First State Heritage Park",
+                "endDate": "2020-12-28"
+              },
+              {
+                "exceptionHours": {
+                  "wednesday": "9:00AM - 4:30PM",
+                  "monday": "9:00AM - 4:30PM",
+                  "thursday": "9:00AM - 4:30PM",
+                  "sunday": "1:30PM - 4:00AM",
+                  "tuesday": "9:00AM - 4:30PM",
+                  "friday": "9:00AM - 4:30PM",
+                  "saturday": "9:00AM - 4:30PM"
+                },
+                "startDate": "2020-06-11",
+                "name": "Hours of Operation for The Old State House",
+                "endDate": "2020-12-28"
+              }
+            ],
+            "description": "On December 7, 1787, state delegates met on The Green at the Golden Fleece tavern. At this meeting Delaware became the first state to ratify the US Constitution.",
+            "standardHours": {
+              "wednesday": "Sunrise to Sunset",
+              "monday": "Sunrise to Sunset",
+              "thursday": "Sunrise to Sunset",
+              "sunday": "Sunrise to Sunset",
+              "tuesday": "Sunrise to Sunset",
+              "friday": "Sunrise to Sunset",
+              "saturday": "Sunrise to Sunset"
+            },
+            "name": "The Dover Green"
           }
         ],
         "topics": [
           {
-            "id": "7F81A0CB-B91F-4896-B9A5-41BE9A54A27B",
-            "name": "Archeology"
+            "id": "990E22A2-20D8-4CC2-8E6C-D2DF165BCDA5",
+            "name": "American Revolutionary War"
           },
           {
-            "id": "77B7EFDF-1A74-409C-8BA2-324EC919DB0E",
-            "name": "Arctic"
+            "id": "607D41B0-F830-4C07-A557-BCEF880A3929",
+            "name": "Burial, Cemetery and Gravesite"
           },
           {
-            "id": "B912363F-771C-4098-BA3A-938DF38A9D7E",
-            "name": "Aviation"
-          },
-          {
-            "id": "6A3658B4-FB6E-4E23-A63A-9AEF11988831",
-            "name": "Battlefields"
-          },
-          {
-            "id": "123CE28E-0EFA-4330-8E6E-EEFF3D7BF772",
-            "name": "Coastal Defenses"
-          },
-          {
-            "id": "46FC5CBD-9AD5-48F1-B4DA-1357031B1D2E",
-            "name": "Coasts, Islands and Atolls"
+            "id": "98F41FDF-B73F-4B68-8010-53CCB2891E3B",
+            "name": "Churches"
           },
           {
             "id": "7F12224B-217A-4B07-A4A2-636B1CE7F221",
             "name": "Colonization and Settlement"
           },
           {
-            "id": "8CDF78C9-F91A-4ACD-AE70-4FF186F616CE",
-            "name": "Forced Marches"
+            "id": "D9FC6D14-F8C7-4EBA-86EA-DFD99B6BB4F5",
+            "name": "Enslavement"
+          },
+          {
+            "id": "1F833C99-A75D-4F9E-9256-B96523485466",
+            "name": "Farming and  Agriculture"
+          },
+          {
+            "id": "41B1A0A3-11FF-4F55-9CB9-034A7E28B087",
+            "name": "Forests and Woodlands"
+          },
+          {
+            "id": "988B4AFC-F478-4673-B66D-E6BDB0CCFF35",
+            "name": "Forts"
           },
           {
             "id": "351EE154-87AA-46B0-BBA1-ED604368ACE9",
             "name": "Incarceration"
           },
           {
-            "id": "6766B838-9493-4EF8-830E-2D1EFB917461",
-            "name": "Indigenous and Native Warrior"
+            "id": "50A3D2B2-C922-4749-89F1-E986A5D520AC",
+            "name": "Jails and Prisons"
           },
           {
             "id": "4C9D4777-A9DA-47D1-A0B9-F4A3C98BC1B3",
             "name": "Maritime"
           },
           {
-            "id": "7424754D-EB8B-4608-A69A-50D44992931B",
-            "name": "Maritime - Military"
-          },
-          {
-            "id": "CB405E14-E2A3-4C2E-A91C-AFF8AEB3DEA0",
-            "name": "Massacres"
-          },
-          {
-            "id": "3B0D607D-9933-425A-BFA0-21529AC4734C",
-            "name": "Military"
-          },
-          {
             "id": "BEB7E470-13B2-4E00-84B2-0402D98DAF69",
             "name": "Monuments and Memorials"
           },
           {
-            "id": "101F4D51-F99D-45A6-BBB6-CD481E5FACED",
-            "name": "Mountains"
-          },
-          {
-            "id": "A1BAF33E-EA84-4608-A888-4CEE9541F027",
-            "name": "Native American Heritage"
+            "id": "F67CA03D-109F-44B9-9B63-D9EC9FD77A1D",
+            "name": "Plantations"
           },
           {
             "id": "518B32FB-339D-4C52-B2C2-04BF406AA4B0",
             "name": "Religion and Spirituality"
           },
           {
-            "id": "9C9FCBB6-360B-4743-8155-6F9341CBE01B",
-            "name": "Scenic Views"
+            "id": "40C0866A-3890-41A4-84CA-5935DEE181AE",
+            "name": "Social Movements"
           },
           {
-            "id": "A079385C-3E71-4E18-9E42-B046BC22EA95",
-            "name": "Ships and Shipwrecks"
+            "id": "5BE55D7F-BDB6-4E3D-AC35-2D8EBB974417",
+            "name": "Trails"
           },
           {
-            "id": "A160B3D9-1603-4D89-B82F-21FCAF9EEE3B",
-            "name": "Tragic Events"
-          },
-          {
-            "id": "C8F16A24-90B7-47D9-B2E0-5F2A9237D0F4",
-            "name": "Tundra"
-          },
-          {
-            "id": "83CEA23E-9FF6-4C6B-B48E-A725087D5CC5",
-            "name": "US Air Force (Army Air Corps)"
-          },
-          {
-            "id": "97CCB419-196C-4B95-BB3A-621458F78415",
-            "name": "US Army"
-          },
-          {
-            "id": "64808223-DD03-40ED-99A1-76183E7AB1F5",
-            "name": "US Marines"
-          },
-          {
-            "id": "7A9F5EB5-4AE3-4A16-AFF0-E1F9FF2F8B32",
-            "name": "US Navy"
+            "id": "846E5C56-E5AC-489C-B3BF-11F4C73F12C2",
+            "name": "Urban America"
           },
           {
             "id": "27BF8807-54EA-4A3D-B073-AA7AA361CD7E",
             "name": "Wars and Conflicts"
           },
           {
-            "id": "74869FAE-8DFD-4454-847F-11FDDB679F94",
-            "name": "World War II"
+            "id": "7DA81DAB-5045-4953-9C20-36590AD9FA95",
+            "name": "Women's History"
           }
         ],
-        "latLong": "lat:53.9143076, long:-166.5197218",
-        "description": "During World War II the remote Aleutian Islands, home to the Unangax̂ (Aleut) people for over 8,000 years, became a fiercely contested battleground in the Pacific. This thousand-mile-long archipelago saw invasion by Japanese forces, the occupation of two islands; a mass relocation of Unangax̂ civilians; a 15-month air war; and one of the deadliest battles in the Pacific Theater.",
+        "latLong": "lat:39.83076929, long:-75.56353942",
+        "description": "Famous as the First State to ratify the Constitution, Delaware was born out of a conflict among three world powers for dominance of the Delaware Valley.  From this beginning, the region developed a distinct character that tolerated diversity in religion and national origin and valued independence.",
         "images": [
           {
             "credit": "NPS Photo",
-            "altText": "Group of people around a Russian cross in tall grass",
-            "title": "A homeland changed",
-            "caption": "In September 2009, Nick Lekanoff, Sr., former Makushin resident, traveled with his daughter and other descendants of Makushin on the Tiglax to visit the village site, which had been left behind in the evacuation of 1942 and never permanently resettled.",
-            "url": "https://www.nps.gov/common/uploads/structured_data/3C7BC1AE-1DD8-B71B-0BF60FDE7A21822B.jpg"
+            "altText": "Fall day in Beaver Valley",
+            "title": "Fall in Beaver Valley",
+            "caption": "Fall in Beaver Valley means crisp morning air, maybe a little frost on the grass, and definitely picturesque views throughout the park.",
+            "url": "https://www.nps.gov/common/uploads/structured_data/34AD3AB4-1DD8-B71B-0B334721555D1A18.jpg"
           },
           {
-            "credit": "Photograph courtesy National Archives",
-            "altText": "Twelve men and a dog pose for a photo",
-            "title": "William C. House and the Aerological Detail on Kiska",
-            "caption": "After his aerological crew was captured by the Japanese in June, 1942, Senior Petty Officer William House survived 50 days in the hills of Kiska.  He ate grass, shellfish, and worms. Weighing 80lbs he surrendered and was respected for his perseverance.",
-            "url": "https://www.nps.gov/common/uploads/structured_data/3C7BC37B-1DD8-B71B-0BA4AF7F3700FE86.jpg"
-          },
-          {
-            "credit": "Photograph courtesy National Archives",
-            "altText": "People crowd at the railing of a ship",
-            "title": "Evacuation and internment",
-            "caption": "Pribilof villagers, here lining the railing of the USAT Delarof on the day of their departure (June 15, 1942), were evacuated with only a few hours notice and no idea of their ultimate destination.",
-            "url": "https://www.nps.gov/common/uploads/structured_data/3C7BC517-1DD8-B71B-0BD7C869F63B3276.jpg"
-          },
-          {
-            "credit": "Photo courtesy of National Archives",
-            "altText": "Four men gather around a invalid man",
-            "title": "Challenging weather conditions",
-            "caption": "Soldiers rub the frostbitten feet of a disabled soldier. Over 2000 weather-related casualties—the majority Attu feet—were recorded for U.S. troops. This number represents the largest classification of casualties suffered by American forces on the island.",
-            "url": "https://www.nps.gov/common/uploads/structured_data/3C7BC68B-1DD8-B71B-0BED69DAACF6A5AC.jpg"
-          },
-          {
-            "credit": "Photo courtesy National Archives",
-            "altText": "Six men with guns carry a person on a stretcher in a valley.",
-            "title": "The battle for Attu Island",
-            "caption": "U.S. wounded are gathered from the battlefield on Attu Island.  The battle on Attu, lasting nearly 20 days, was the second most deadly in the Pacific Theater.",
-            "url": "https://www.nps.gov/common/uploads/structured_data/3C7BC7CF-1DD8-B71B-0B73637962E06C74.jpg"
-          },
-          {
-            "credit": "Photo courtesy National Archives",
-            "altText": "A uniformed man holds up a broken Russian cross",
-            "title": "Cultural collision",
-            "caption": "The Aleutian campaign brought together Russian, Native Alaskan, Japanese, and Euroamerican cultures. During the war 7 historic churches were damaged or destroyed. Villages were unrecognizable or burned to the ground and personal belonging lost or stolen.",
-            "url": "https://www.nps.gov/common/uploads/structured_data/3C7BC97B-1DD8-B71B-0B9A70C0C0988F0E.jpg"
+            "credit": "NPS Photo",
+            "altText": "A view of the back of the John Dickinson House on the Plantation.",
+            "title": "John Dickinson Plantation",
+            "caption": "A view of the back of the John Dickinson House on the Plantation.",
+            "url": "https://www.nps.gov/common/uploads/structured_data/BEAD404F-1DD8-B71B-0B3324BE4EFD6BFD.jpg"
           }
         ],
-        "designation": "National Historic Area",
-        "parkCode": "aleu",
+        "designation": "National Historical Park",
+        "parkCode": "frst",
         "addresses": [
           {
-            "postalCode": "99501",
-            "city": "Anchorage",
-            "stateCode": "AK",
-            "line1": "Affiliated Areas, Alaska Regional Office",
+            "postalCode": "19720",
+            "city": "New Castle",
+            "stateCode": "DE",
+            "line1": "New Castle Court House Museum",
             "type": "Mailing",
-            "line3": "240 W 5th Avenue",
-            "line2": "National Park Service"
+            "line3": "211 Delaware Street",
+            "line2": "Attn: First State NHP"
           },
           {
-            "postalCode": "99501",
-            "city": "Anchorage",
-            "stateCode": "AK",
-            "line1": "Affiliated Areas, Alaska Regional Office",
+            "postalCode": "19720",
+            "city": "New Castle",
+            "stateCode": "DE",
+            "line1": "New Castle Court House Museum",
             "type": "Physical",
-            "line3": "240 W 5th Avenue",
-            "line2": "National Park Service"
+            "line3": "",
+            "line2": "211 Delaware Street"
           }
         ],
-        "id": "94B046DC-2AFD-4ECB-A60D-CE210A8550B1",
-        "fullName": "Aleutian Islands World War II National Historic Area",
-        "latitude": "53.9143076"
+        "id": "7861C177-A600-4B37-B217-E9E64DC04F34",
+        "fullName": "First State National Historical Park",
+        "latitude": "39.83076929"
       },
       "weather": {
-        "lat": 53.91,
-        "lon": -166.52,
-        "timezone": "America/Nome",
-        "timezone_offset": -28800,
+        "lat": 39.83,
+        "lon": -75.56,
+        "timezone": "America/New_York",
+        "timezone_offset": -14400,
         "daily": [
           {
-            "dt": 1591916400,
-            "sunrise": 1591886082,
-            "sunset": 1591947436,
+            "dt": 1591894800,
+            "sunrise": 1591868013,
+            "sunset": 1591921838,
             "temp": {
-              "day": 49.86,
-              "min": 46.4,
-              "max": 52.05,
-              "night": 48.27,
-              "eve": 52.05,
-              "morn": 46.4
+              "day": 76.86,
+              "min": 70.27,
+              "max": 76.98,
+              "night": 70.27,
+              "eve": 76.98,
+              "morn": 76.86
             },
             "feels_like": {
-              "day": 44.69,
-              "night": 40.57,
-              "eve": 45.75,
-              "morn": 43.84
+              "day": 80.83,
+              "night": 69.44,
+              "eve": 80.62,
+              "morn": 80.83
             },
-            "pressure": 1011,
-            "humidity": 80,
-            "dew_point": 43.95,
-            "wind_speed": 6.69,
-            "wind_deg": 122,
+            "pressure": 1017,
+            "humidity": 88,
+            "dew_point": 73.02,
+            "wind_speed": 9.33,
+            "wind_deg": 292,
             "weather": [
               {
-                "id": 804,
-                "main": "Clouds",
-                "description": "overcast clouds",
-                "icon": "04d"
-              }
-            ],
-            "clouds": 86,
-            "uvi": 5.57
-          },
-          {
-            "dt": 1592002800,
-            "sunrise": 1591972464,
-            "sunset": 1592033878,
-            "temp": {
-              "day": 45.68,
-              "min": 44.89,
-              "max": 46.53,
-              "night": 44.89,
-              "eve": 45.32,
-              "morn": 46.53
-            },
-            "feels_like": {
-              "day": 37.2,
-              "night": 39.43,
-              "eve": 38.48,
-              "morn": 37.9
-            },
-            "pressure": 1009,
-            "humidity": 92,
-            "dew_point": 43.65,
-            "wind_speed": 12.39,
-            "wind_deg": 131,
-            "weather": [
-              {
-                "id": 501,
+                "id": 500,
                 "main": "Rain",
-                "description": "moderate rain",
+                "description": "light rain",
                 "icon": "10d"
               }
             ],
-            "clouds": 100,
-            "rain": 8.23,
-            "uvi": 5.82
+            "clouds": 90,
+            "rain": 0.65,
+            "uvi": 10.77
           },
           {
-            "dt": 1592089200,
-            "sunrise": 1592058849,
-            "sunset": 1592120316,
+            "dt": 1591981200,
+            "sunrise": 1591954409,
+            "sunset": 1592008266,
             "temp": {
-              "day": 46.63,
-              "min": 44.85,
-              "max": 47.3,
-              "night": 45.95,
-              "eve": 47.3,
-              "morn": 44.85
+              "day": 81.5,
+              "min": 64.2,
+              "max": 81.5,
+              "night": 64.2,
+              "eve": 75.45,
+              "morn": 70.3
             },
             "feels_like": {
-              "day": 43.07,
-              "night": 43.09,
-              "eve": 43.65,
-              "morn": 41.18
+              "day": 77.11,
+              "night": 57.58,
+              "eve": 74.44,
+              "morn": 67.08
             },
-            "pressure": 1006,
-            "humidity": 88,
-            "dew_point": 43.39,
-            "wind_speed": 3.58,
+            "pressure": 1018,
+            "humidity": 37,
+            "dew_point": 53.4,
+            "wind_speed": 9.28,
+            "wind_deg": 304,
+            "weather": [
+              {
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+              }
+            ],
+            "clouds": 0,
+            "uvi": 10.08
+          },
+          {
+            "dt": 1592067600,
+            "sunrise": 1592040807,
+            "sunset": 1592094692,
+            "temp": {
+              "day": 70.86,
+              "min": 59.56,
+              "max": 72.95,
+              "night": 61.05,
+              "eve": 67.5,
+              "morn": 59.56
+            },
+            "feels_like": {
+              "day": 65.84,
+              "night": 54.37,
+              "eve": 63.79,
+              "morn": 51.58
+            },
+            "pressure": 1021,
+            "humidity": 37,
+            "dew_point": 43.86,
+            "wind_speed": 6.17,
+            "wind_deg": 339,
+            "weather": [
+              {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04d"
+              }
+            ],
+            "clouds": 52,
+            "uvi": 9.23
+          },
+          {
+            "dt": 1592154000,
+            "sunrise": 1592127206,
+            "sunset": 1592181116,
+            "temp": {
+              "day": 61.39,
+              "min": 55.17,
+              "max": 68.9,
+              "night": 61.07,
+              "eve": 64.71,
+              "morn": 55.17
+            },
+            "feels_like": {
+              "day": 57.22,
+              "night": 57.25,
+              "eve": 61.12,
+              "morn": 50.05
+            },
+            "pressure": 1026,
+            "humidity": 64,
+            "dew_point": 49.17,
+            "wind_speed": 7.14,
             "wind_deg": 33,
             "weather": [
               {
@@ -1839,33 +2018,33 @@
                 "icon": "10d"
               }
             ],
-            "clouds": 99,
-            "rain": 0.59,
-            "uvi": 5.79
+            "clouds": 98,
+            "rain": 1.69,
+            "uvi": 9.18
           },
           {
-            "dt": 1592175600,
-            "sunrise": 1592145238,
-            "sunset": 1592206751,
+            "dt": 1592240400,
+            "sunrise": 1592213608,
+            "sunset": 1592267539,
             "temp": {
-              "day": 48.13,
-              "min": 45.9,
-              "max": 48.69,
-              "night": 46.09,
-              "eve": 48.69,
-              "morn": 45.9
+              "day": 63.37,
+              "min": 60.1,
+              "max": 64.44,
+              "night": 60.1,
+              "eve": 61.16,
+              "morn": 62.69
             },
             "feels_like": {
-              "day": 45.28,
-              "night": 42.19,
-              "eve": 44.71,
-              "morn": 43.2
+              "day": 59.67,
+              "night": 58.12,
+              "eve": 57.99,
+              "morn": 58.08
             },
-            "pressure": 1012,
-            "humidity": 85,
-            "dew_point": 43.95,
-            "wind_speed": 2.51,
-            "wind_deg": 23,
+            "pressure": 1025,
+            "humidity": 73,
+            "dew_point": 54.9,
+            "wind_speed": 9.08,
+            "wind_deg": 83,
             "weather": [
               {
                 "id": 500,
@@ -1874,33 +2053,67 @@
                 "icon": "10d"
               }
             ],
-            "clouds": 61,
-            "rain": 0.73,
-            "uvi": 5.76
+            "clouds": 100,
+            "rain": 2.61,
+            "uvi": 9.28
           },
           {
-            "dt": 1592262000,
-            "sunrise": 1592231630,
-            "sunset": 1592293183,
+            "dt": 1592326800,
+            "sunrise": 1592300011,
+            "sunset": 1592353960,
             "temp": {
-              "day": 50.18,
-              "min": 46.11,
-              "max": 50.18,
-              "night": 46.11,
-              "eve": 48.42,
-              "morn": 47.75
+              "day": 70.86,
+              "min": 60.94,
+              "max": 72.57,
+              "night": 63.03,
+              "eve": 66.6,
+              "morn": 60.94
             },
             "feels_like": {
-              "day": 42.13,
-              "night": 39.34,
-              "eve": 41.68,
-              "morn": 42.06
+              "day": 66.54,
+              "night": 61.41,
+              "eve": 63.9,
+              "morn": 58.12
             },
-            "pressure": 1015,
-            "humidity": 76,
-            "dew_point": 42.94,
-            "wind_speed": 11.39,
-            "wind_deg": 125,
+            "pressure": 1026,
+            "humidity": 62,
+            "dew_point": 57.33,
+            "wind_speed": 11.7,
+            "wind_deg": 79,
+            "weather": [
+              {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04d"
+              }
+            ],
+            "clouds": 100,
+            "uvi": 9.55
+          },
+          {
+            "dt": 1592413200,
+            "sunrise": 1592386416,
+            "sunset": 1592440379,
+            "temp": {
+              "day": 68.38,
+              "min": 63.48,
+              "max": 68.38,
+              "night": 63.88,
+              "eve": 66.04,
+              "morn": 64.2
+            },
+            "feels_like": {
+              "day": 66.07,
+              "night": 64,
+              "eve": 65.3,
+              "morn": 62.8
+            },
+            "pressure": 1023,
+            "humidity": 74,
+            "dew_point": 59.95,
+            "wind_speed": 9.73,
+            "wind_deg": 78,
             "weather": [
               {
                 "id": 500,
@@ -1909,33 +2122,33 @@
                 "icon": "10d"
               }
             ],
-            "clouds": 25,
-            "rain": 2.45,
-            "uvi": 6.07
+            "clouds": 100,
+            "rain": 0.27,
+            "uvi": 9.22
           },
           {
-            "dt": 1592348400,
-            "sunrise": 1592318026,
-            "sunset": 1592379612,
+            "dt": 1592499600,
+            "sunrise": 1592472823,
+            "sunset": 1592526797,
             "temp": {
-              "day": 46.51,
-              "min": 45.93,
-              "max": 46.76,
-              "night": 46.11,
-              "eve": 46.69,
-              "morn": 45.93
+              "day": 73.9,
+              "min": 64.85,
+              "max": 77.52,
+              "night": 66.7,
+              "eve": 73.26,
+              "morn": 64.85
             },
             "feels_like": {
-              "day": 41.5,
-              "night": 43.86,
-              "eve": 42.44,
-              "morn": 40.03
+              "day": 75.69,
+              "night": 70.54,
+              "eve": 77.52,
+              "morn": 63.93
             },
-            "pressure": 1010,
-            "humidity": 95,
-            "dew_point": 45.27,
-            "wind_speed": 6.87,
-            "wind_deg": 111,
+            "pressure": 1017,
+            "humidity": 77,
+            "dew_point": 66.52,
+            "wind_speed": 7.2,
+            "wind_deg": 73,
             "weather": [
               {
                 "id": 501,
@@ -1944,102 +2157,20 @@
                 "icon": "10d"
               }
             ],
-            "clouds": 100,
-            "rain": 8.42,
-            "uvi": 5.93
-          },
-          {
-            "dt": 1592434800,
-            "sunrise": 1592404425,
-            "sunset": 1592466037,
-            "temp": {
-              "day": 47.75,
-              "min": 46.13,
-              "max": 48.38,
-              "night": 46.56,
-              "eve": 47.91,
-              "morn": 46.13
-            },
-            "feels_like": {
-              "day": 45.3,
-              "night": 41.31,
-              "eve": 44.78,
-              "morn": 44.11
-            },
-            "pressure": 1011,
-            "humidity": 88,
-            "dew_point": 44.65,
-            "wind_speed": 2.04,
-            "wind_deg": 120,
-            "weather": [
-              {
-                "id": 500,
-                "main": "Rain",
-                "description": "light rain",
-                "icon": "10d"
-              }
-            ],
-            "clouds": 95,
-            "rain": 1.45,
-            "uvi": 6.15
-          },
-          {
-            "dt": 1592521200,
-            "sunrise": 1592490828,
-            "sunset": 1592552459,
-            "temp": {
-              "day": 47.39,
-              "min": 47.1,
-              "max": 47.93,
-              "night": 47.91,
-              "eve": 47.91,
-              "morn": 47.1
-            },
-            "feels_like": {
-              "day": 41.49,
-              "night": 41.76,
-              "eve": 41.76,
-              "morn": 41.43
-            },
-            "pressure": 1011,
-            "humidity": 88,
-            "dew_point": 44.11,
-            "wind_speed": 8.03,
-            "wind_deg": 119,
-            "weather": [
-              {
-                "id": 500,
-                "main": "Rain",
-                "description": "light rain",
-                "icon": "10d"
-              }
-            ],
-            "clouds": 98,
-            "rain": 0.33,
-            "uvi": 5.75
+            "clouds": 99,
+            "rain": 11.58,
+            "uvi": 9.37
           }
         ]
       },
       "attractions": [
         {
-          "id": 1,
-          "name": "Big White Shirt",
-          "state": "AL",
-          "city": "Andalusia",
-          "picture": "https://www.roadsideamerica.com/attract/images/al/ALANDshirt_blum1.jpg",
-          "description": "Andalusia, Alabama, is the white dress-shirt capital of America, and this highly photographed enormous white shirt sign is a reminder of that. According to Roadside America, the tie is changed seasonally.",
-          "amenities": {
-            "souvenirs": false,
-            "restrooms": false
-          }
-        },
-        {
-          "id": 8,
-          "name": "Owney the Stuffed Dog Postal Mascot",
-          "state": "DC",
-          "city": "Washington",
-          "picture": "https://i.pinimg.com/originals/b6/fa/57/b6fa573c197f13c4e9b143fa2b7b9314.jpg",
-          "description": "You can see the unofficial postal system mascot, Owney, at the National Postal Museum where he sits wearing a vest decorated with honors for his travels assisting postal professionals. The little dog died in 1897 but has been displayed at the Post Office Headquarters in Washington, D.C., the St. Louis World’s Fair, and the Smithsonian before arriving at his final resting place, where visitors can see him today.",
+          "id": 6,
+          "name": "Largest Fork in the US",
+          "state": "CO",
+          "city": "Creede",
+          "picture": "https://cdn.5280.com/2016/05/5280_creede_fork_della_brown.jpg",
+          "description": "Creede, Colorado, is home to the largest fork in the United States. The enormous sculpture by Ted Yund is over 40 feet long and weights over 600 pounds, breaking the record of the previous world’s largest fork, which was in Springfield, Missouri.",
           "amenities": {
             "souvenirs": false,
             "restrooms": false
@@ -2048,34 +2179,18 @@
       ],
       "eateries": [
         {
-          "businessName": "The Old Clam House",
-          "description": "With respect to the Tadich Grill in SF and Musso & Frank's in Hollywood, our choice is this legendary spot in Bayview. Anyone who has spent time playing soccer on Silver Ave or driving down Bayshore Blvd or just living around SF knows the Old Clam House's iconic sign and that giant clam sitting on the side of the roof and the fact that it's the oldest restaurant in the same location in SF (again, apologies to Tadich). But more people should know about the incredible clam bake cioppino and the amazing kettle bread that's brought out with hot clam juice and the restaurant's own 'Milwaukee steam beer,' which our SF-based editor swears by.",
-          "state": "CA",
-          "city": "San Francisco",
-          "picture": "http://insidescoopsf.sfgate.com/files/2014/10/old-clam-house-sign.jpg",
-          "id": 6,
+          "businessName": "Louis' Lunch",
+          "description": "There's a lot of debate as to who invented the hamburger as we know it today, but that debate kind of ends at Louis' Lunch, mainly because it's tired of arguing about it, but also because the Library of Congress declared it so. The tiny joint still uses its original cast-iron grills, which cook the hand-ground patties vertically by blasting them with fire. Want ketchup and mustard? Head to one of the other places that claim to have invented the burger: at Louis', your options are cheese, tomato, and onion on toast. That's the way it's been since it 'invented' the burger back in the day, and that's how it'll always be.",
+          "state": "CT",
+          "city": "New Haven",
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Louis_Lunch_-_Classic_Diner_-_New_Haven_-_CT_-_USA_(7088657091).jpg/1200px-Louis_Lunch_-_Classic_Diner_-_New_Haven_-_CT_-_USA_(7088657091).jpg",
+          "id": 8,
           "amenities": {
-            "wheelchairAccessible": false,
-            "petFriendly": false,
-            "wifi": false,
-            "diaperFacility": true,
-            "playground": false,
-            "restrooms": true
-          }
-        },
-        {
-          "businessName": "Deer Park Tavern",
-          "description": "While that one scene in Wayne's World helped define Delaware for an entire generation, every generation of Delawareans knows Deer Park as a historic spot where Edgar Allan Poe once hung out in the 1800s, right before he founded the Baltimore Ravens football team. It continues to operate as a Newark staple -- a place where townies and college students alike enjoy burgers, nachos, and a pint of local-ish Dogfish Head.",
-          "state": "DE",
-          "city": "Newark",
-          "picture": "https://i.ytimg.com/vi/_jvWMTIzuv4/maxresdefault.jpg",
-          "id": 9,
-          "amenities": {
-            "wheelchairAccessible": false,
+            "wheelchairAccessible": true,
             "petFriendly": false,
             "wifi": true,
             "diaperFacility": true,
-            "playground": true,
+            "playground": false,
             "restrooms": true
           }
         }
