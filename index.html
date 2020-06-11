@@ -19,6 +19,7 @@
                 <div class="parks__list">
                     <label for="state">State & Parks Lists</label>
                     <br><select class="stateChoice" id="state" name="state">
+                        <option value="">Select a State</option>
                         <option value="al">Alabama</option>
                         <option value="ak">Alaska</option>
                         <option value="az">Arizona</option>
@@ -71,9 +72,12 @@
                         <option value="wi">Wisconsin</option>
                         <option value="wy">Wyoming</option>
                     </select>
+                    <!-- <input type="checkbox" name="wheelchairBox" id="wheelchairBox">
+                    <label for="wheelchairBox">Wheelchair Accessibility</label> -->
                     <br><select class="parkChoice">
                         <option value="">Select a Park</option>
                     </select>
+                    <button onclick="compareWheelchair()">Wheelchair</button>
                     <!-- list stuff here -->
                 </div>
                 <div class="attractions__list">
@@ -127,13 +131,7 @@
             <div class="container__right__lower">
                 <aside class="aside__saved__itineraries">
                     <!-- Card HTML for Conversion  -->
-                    <section class="section__itinerary__card">
-                        <div class="header__itinerary__card">Itinerary Card</div>
-                        <div class="content__itinerary__card">
-                            <p>Fall Creek Falls</p>
-                        </div>
-                    </section>
- 
+
                 </aside>
             </div>
         </div>
@@ -160,7 +158,9 @@
     <script src="scripts/attractions/AttractionList.js"></script>
 
     <script src="scripts/itineraries/itineries.js"></script>
-    
+    <script src="scripts/itineraries/itinerariesConverter.js"></script>
+    <script src="scripts/itineraries/itinerariesList.js"></script>
+
     <script src="scripts/main.js"></script>
 </body>
 </html>

@@ -1,3 +1,4 @@
+getWheelchairData()
 deleteItenerary()
 
 getParkData()
@@ -7,4 +8,3 @@ eateryAPI.getEateries().then(populateEaterySelect)
 
 
 getAttractionData().then((response) => attractionsList(response))
-
