@@ -26,23 +26,22 @@ const attractionsItineraryConverter = (attractionsObject) => {
             <img class="attraction__picture" src="${attractionsObject.picture}"
                 alt="${attractionsObject.name} Info: ${attractionsObject.description}" />
         </div>
+        </section>
         <button name="details__button" class="button__details" id="${attractionsObject.id}">Details</button>
         <div id="myModal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <p>
-            <div class="attraction__details hidden__details" id="details__${attractionsObject.id}">
-            Details: <br>
-                Name <strong>${attractionsObject.name}</strong><br>
-                ${attractionsObject.city}, ${attractionsObject.state}<br>
-                Description: ${attractionsObject.description}<br>
-                Souveniers available: ${souvenirs}<br>
-                Restrooms available: ${restrooms}
+            <div class="modal__eatery__details" id="modal__eatery__details__${attractionsObject.id}">
+                <div class="modal__content">
+                    <div class="eatery__details hidden__details" id="details__${attractionsObject.id}">
+                        <span class="close">&times;</span>
+                            <strong>${attractionsObject.name}</strong><br>
+                            Description: ${attractionsObject.description}<br>
+                            Location: ${attractionsObject.city}, ${attractionsObject.state}<br>
+                            Amenties: <br>
+                                Souvenirs: ${souvenirs}<br>
+                                Restrooms:${restrooms}
+                </div>
             </div>
-            </p>
         </div>
-        
-    </section>
    `
 
     return attractionsHTMLRepresentation

@@ -1,3 +1,5 @@
+deleteItenerary()
+
 getParkData()
 
 // Testing Eatery Fetch

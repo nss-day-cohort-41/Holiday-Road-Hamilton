@@ -16,6 +16,7 @@ const populateEaterySelect = () => {
 
 eateryDropdown.addEventListener("change", (clickEvent) => {
     clearEateryList();
+
     const eateryID = parseInt(clickEvent.target.value)
     //console.log(`option value ID: ${eateryID}`) 
     for (eatery of eateryCollection) {

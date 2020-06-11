@@ -39,6 +39,7 @@ parkTypeDropdown.addEventListener("change", (changeEvent) => {
         }
     }
     displayParkPreview()
+    
     // This is just to change the park selection for everything
     console.log(natPark)
 
@@ -70,7 +71,6 @@ const previewParkElement = document.querySelector(".preview__parks")
 const clearParkPreview = () => previewParkElement.innerHTML = ""
 
 const displayParkPreview = () => {
-
     clearParkPreview()
 
     const parkPreviewHTML = parkPreviewConverter(natPark)
