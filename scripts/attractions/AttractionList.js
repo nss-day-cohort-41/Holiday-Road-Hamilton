@@ -5,10 +5,18 @@ let attractionSelectionArray = []
 
 attractionTypeDropdown.addEventListener("change", changeEvent  => {
     // Get the value of the option chosen by the user
+    clearAttractionsList()
     const userChoice = changeEvent.target.value
     for(currentAttractionsObject of attractionData) {
-        if (userChoice === currentAttractionsObject.name) {
-            attractionSelectionArray.push(currentAttractionsObject)
+         if (userChoice === currentAttractionsObject.name) {
+             //added check for empty array or attraction not already in array 
+            if ( attractionSelectionArray.length < 1 ) {
+                attractionSelectionArray.push(currentAttractionsObject)
+            } else if (attractionSelectionArray.indexOf(currentAttractionsObject) === -1 ) {
+                attractionSelectionArray.push(currentAttractionsObject)       
+            }
+            
+            
             displayAttractionPreview(attractionSelectionArray)
         }
     }
@@ -16,7 +24,8 @@ attractionTypeDropdown.addEventListener("change", changeEvent  => {
 })
 
 const previewAttractions = document.querySelector(".preview__attractions");
-
+var activeAttractionDetails = "";
+var activeAttractionModal = "";
 
 const displayAttractionPreview = (locals) => {
 
@@ -24,11 +33,24 @@ const displayAttractionPreview = (locals) => {
  
         const attractionHTML = attractionsItineraryConverter(currAttractionObject);
         previewAttractions.innerHTML += attractionHTML
-        const attractionDetailVisibilityButtons = document.querySelectorAll(`.button__details`)
+        const attractionDetailVisibilityButtons = document.querySelectorAll(`.button__details--attraction`)
         attractionDetailVisibilityButtons.forEach(button => {
             button.addEventListener("click", clickEvent => {
-                document.getElementById(`modal__eatery__details__${clickEvent.target.id}`).style.display = "block";
-                activeModal = document.getElementById(`modal__eatery__details__${clickEvent.target.id}`);
+                if ( document.getElementById(`modal__attraction__details__${clickEvent.target.id}`).style.display === "block") {
+                    document.getElementById(`modal__attraction__details__${clickEvent.target.id}`).style.display = "none";
+                    button.innerHTML ="Details"
+                    activeAttractionModal = "";
+                } else {
+                    if (activeAttractionModal === "" ) {
+                        document.getElementById(`modal__attraction__details__${clickEvent.target.id}`).style.display = "block";
+                        activeAttractionModal = document.getElementById(`modal__attraction__details__${clickEvent.target.id}`);
+                        activeAttractionDetails = button;
+                        button.innerHTML ="Close"
+
+                    }
+                    
+                }
+                    
                 })
             });
         

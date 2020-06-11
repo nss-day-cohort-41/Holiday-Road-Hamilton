@@ -20,18 +20,17 @@ const attractionsItineraryConverter = (attractionsObject) => {
          restrooms = "No"
      }
     const attractionsHTMLRepresentation = `
-    <section class="attractions__overview">
+    <section class="attractions__overview section__attractions">
         <div class="div__section__attraction">
             <h1> ${attractionsObject.name} </h1>
             <img class="attraction__picture" src="${attractionsObject.picture}"
                 alt="${attractionsObject.name} Info: ${attractionsObject.description}" />
         </div>
+        <button name="details__button" class="button__details--attraction" id="${attractionsObject.id}">Details</button>
         </section>
-        <button name="details__button" class="button__details" id="${attractionsObject.id}">Details</button>
-        <div id="myModal" class="modal">
-            <div class="modal__eatery__details" id="modal__eatery__details__${attractionsObject.id}">
-                <div class="modal__content">
-                    <div class="eatery__details hidden__details" id="details__${attractionsObject.id}">
+        <div id="myModal" class="modal--attractions">
+            <div class="modal__details--attractions" id="modal__attraction__details__${attractionsObject.id}">
+                <div class="modal__content--attractions">
                         <span class="close">&times;</span>
                             <strong>${attractionsObject.name}</strong><br>
                             Description: ${attractionsObject.description}<br>
