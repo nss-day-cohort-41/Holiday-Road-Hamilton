@@ -1447,12 +1447,5 @@
       }
     }
   ],
-  "itineraries": [
-    {
-      "parks": {},
-      "weather": {},
-      "attractions": {},
-      "eateries": {}
-    }
-  ]
+  "itineraries": []
 }

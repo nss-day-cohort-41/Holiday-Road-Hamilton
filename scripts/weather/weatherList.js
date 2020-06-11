@@ -1,8 +1,16 @@
+ let weatherArray = []
  const weatherList = (weather) =>{
+    let dayCnt = 0;
+    weatherArray = weather
+    const weatherdivelement= document.querySelector(".weathercontainer")
+    weatherdivelement.innerHTML = "";
     for (const currentweatherobject of weather.daily){
-        const weatherHTML= weatherConverter(currentweatherobject)
-        const weatherdivelement= document.querySelector(".weathercontainer")
-        weatherdivelement.innerHTML += weatherHTML
+        dayCnt++;
+        if (dayCnt < 6) {
+            const weatherHTML= weatherConverter(currentweatherobject,dayCnt)
+            weatherdivelement.innerHTML += weatherHTML
+            drawWeather(currentweatherobject,dayCnt)
+        }
     }
 
 }

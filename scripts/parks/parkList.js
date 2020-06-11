@@ -71,7 +71,6 @@ const previewParkElement = document.querySelector(".preview__parks")
 const clearParkPreview = () => previewParkElement.innerHTML = ""
 
 const displayParkPreview = () => {
-    API.saveParkEntry(natPark)
     clearParkPreview()
 
     const parkPreviewHTML = parkPreviewConverter(natPark)
