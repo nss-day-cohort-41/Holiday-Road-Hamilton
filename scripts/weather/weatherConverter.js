@@ -9,8 +9,7 @@ const weatherConverter = (weatherObject,dayCnt) => {
             <p>Temperature High: ${weatherObject.temp.max} F</p>
             <p>Feels Like Midday: ${weatherObject.feels_like.day} F</p>
         </div>
-      </div>
-    `
+   `
   }
 
   
