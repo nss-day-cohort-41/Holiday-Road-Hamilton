@@ -24,16 +24,19 @@ const eateryConverter = (eateryObject) => {
     <div id="myModal" class="modal">
         <div class="modal__eatery__details" id="modal__eatery__details__${eateryObject.id}">
             <div class="modal__content">
-                <span class="close">&times;</span>
                 <strong>${eateryObject.businessName}</strong><br>
                 Description: ${eateryObject.description}<br>
                 Location: ${eateryObject.city}, ${eateryObject.state}<br>
                 Amenties: ${amenitiesStr}
             </div>
+            
         </div>
+        <span id="modal_close" onclick="document.getElementById('id01').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
     </div>
     `;
 
     return eateryHTMLRepresentation;
 }
+
 

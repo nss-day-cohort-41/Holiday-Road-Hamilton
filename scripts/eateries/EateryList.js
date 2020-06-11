@@ -45,11 +45,23 @@ const displayEateriesPreview = (eaterySelectedCollection) => {
         const eateryDetailVisibilityButtons = document.querySelectorAll(`.button__details`)
         eateryDetailVisibilityButtons.forEach(button => {
             button.addEventListener("click", clickEvent => {
-                // document.getElementById(`eatery__details__${clickEvent.target.id}`).classList.toggle("hidden__details")
-                document.getElementById(`modal__eatery__details__${clickEvent.target.id}`).style.display = "block";
-                activeModal = document.getElementById(`modal__eatery__details__${clickEvent.target.id}`);
+               
+                if ( document.getElementById(`modal__eatery__details__${clickEvent.target.id}`).style.display === "block") {
+                    document.getElementById(`modal__eatery__details__${clickEvent.target.id}`).style.display = "none";
+                    button.innerHTML ="Details"
+                    activeModal = "";
+                } else {
+                    if (activeModal === "" ) {
+                        document.getElementById(`modal__eatery__details__${clickEvent.target.id}`).style.display = "block";
+                        activeModal = document.getElementById(`modal__eatery__details__${clickEvent.target.id}`);
+                        button.innerHTML ="Close"
+                    }
+                    
+                }
+                    
                 })
             });
+  
         
     }
 }

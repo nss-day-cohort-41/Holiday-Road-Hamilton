@@ -190,14 +190,13 @@ select {
     display: none;
 }*/
 
-/* Modal Content/Box */
-/* Modal Header */
-.modal-header {
-    padding: 2px 16px;
-    background-color: #5cb85c;
-    color: white;
-  }
+
   
+  .modal {
+      color: aliceblue;
+      display: flex;
+      justify-content: flex-end;
+  }
   /* Modal Body */
   .modal-body {padding: 2px 16px;}
   
@@ -208,6 +207,9 @@ select {
     color: white;
   }
 
+.model.closed {
+    display: none;
+}
 .modal__eatery__details {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -232,16 +234,22 @@ select {
     width: 80%; /* Could be more or less, depending on screen size */
  }
 
+
+
  /* The Close Button */
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
+.span__close {
+    float:right;
+    text-align: right;
+    color: white;
+    font-size: 55px;
     font-weight: bold;
+    box-sizing: border-box;
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
   }
   
-  .close:hover,
-  .close:focus {
+  .span__closeclose:hover,
+  .span__closeclose:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
