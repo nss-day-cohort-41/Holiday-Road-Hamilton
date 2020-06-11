@@ -21,7 +21,13 @@ eateryDropdown.addEventListener("change", (clickEvent) => {
     //console.log(`option value ID: ${eateryID}`) 
     for (eatery of eateryCollection) {
         if (eatery["id"]  === eateryID) {
-            eaterySelectedCollection.push(eatery)
+            // If empty array and object not already in array, push it to the array
+            if ( eaterySelectedCollection.length < 1 ) {
+                eaterySelectedCollection.push(eatery)
+            } else if (eaterySelectedCollection.indexOf(eatery) === -1 ) {
+                eaterySelectedCollection.push(eatery)
+            }
+            
         }
     }
     
@@ -33,9 +39,9 @@ eateryDropdown.addEventListener("change", (clickEvent) => {
 const previewEateries = document.querySelector(".preview__eateries");
 
 const clearEateryList = () => previewEateries.innerHTML = ""
-var activeDetails = "";
-var activeModal = "";
-var span = "";
+var activeEateryDetails = "";
+var activeEateryModal = "";
+
 
 const displayEateriesPreview = (eaterySelectedCollection) => {
 
@@ -43,21 +49,21 @@ const displayEateriesPreview = (eaterySelectedCollection) => {
  
         const eateryHTML = eateryConverter(currEateryObject);
         previewEateries.innerHTML += eateryHTML
-        const eateryDetailVisibilityButtons = document.querySelectorAll(`.button__details`)
+        const eateryDetailVisibilityButtons = document.querySelectorAll(`.button__details--eatery`)
         eateryDetailVisibilityButtons.forEach(button => {
             button.addEventListener("click", clickEvent => {
                
                 if ( document.getElementById(`modal__eatery__details__${clickEvent.target.id}`).style.display === "block") {
                     document.getElementById(`modal__eatery__details__${clickEvent.target.id}`).style.display = "none";
                     button.innerHTML ="Details"
-                    activeModal = "";
+                    activeEateryModal = "";
                 } else {
-                    if (activeModal === "" ) {
+                    if (activeEateryModal === "" ) {
                         document.getElementById(`modal__eatery__details__${clickEvent.target.id}`).style.display = "block";
-                        activeModal = document.getElementById(`modal__eatery__details__${clickEvent.target.id}`);
-                        activeDetails = button;
+                        activeEateryModal = document.getElementById(`modal__eatery__details__${clickEvent.target.id}`);
+                        activeEateryDetails = button;
                         button.innerHTML ="Close"
-                        span = document.getElementsByClassName("close")[0];
+
                     }
                     
                 }
@@ -68,18 +74,5 @@ const displayEateriesPreview = (eaterySelectedCollection) => {
         
     }
 }
-
-
-// // When the user clicks anywhere outside of the modal, close it
-// window.onclick = function(event) {
-//     if (event.target == activeModal) {
-//       activeModal.style.display = "none";
-//       detailsButtons = document.querySelectorAll(`.button__details`)
-//       for (button in detailsButtons) {
-//           if (button.value === "Close") { button.innerHTML = "Details"}
-//       }
-//       activeModal = ""
-//     }
-//   }
 
 
