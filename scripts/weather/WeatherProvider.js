@@ -12,11 +12,6 @@ const getWeather = (lat,long) => {
       })
      .then((weather)=>{
          console.log(weather)
-        //  const previewWeatherElement = document.querySelector(".weathercontainer")
-
-        // const clearWeatherPreview = () => previewWeatherElement.innerHTML = ""
-
-        // clearWeatherPreview();
          weatherList(weather)
      })
   }
