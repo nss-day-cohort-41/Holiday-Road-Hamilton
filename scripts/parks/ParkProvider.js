@@ -44,15 +44,3 @@ const getParkData = () => {
         }
     )
 }
-
-// const parkList = (alpha) => {
-
-//     console.log(alpha)
-//     for (const park of alpha) {
-//         parkListArray.push(park)
-        
-//     }
-
-
-//     return parkListArray
-// }

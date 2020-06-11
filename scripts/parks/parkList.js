@@ -77,3 +77,16 @@ const displayParkPreview = () => {
 
     previewParkElement.innerHTML = parkPreviewHTML
 }
+
+const compareWheelchair = () => {
+    for(currentWheelchairObject of wheelchairCollection) {
+        park1 = currentWheelchairObject.parkCode
+        for(currentParkObject of parkCollection2.data) {
+            if (park1 === currentParkObject.parkCode) {
+                let element = document.getElementById(`${currentParkObject.parkCode}`)
+                element.classList.toggle("wheelchairHighlight")
+            }
+        }
+    }
+    
+}
