@@ -21,7 +21,7 @@ const attractionsItineraryConverter = (attractionsObject) => {
      }
     const attractionsHTMLRepresentation = `
     <section class="attractions__overview">
-        <div class="">
+        <div class="div__section__attraction">
             <h1> ${attractionsObject.name} </h1>
             <img class="attraction__picture" src="${attractionsObject.picture}"
                 alt="${attractionsObject.name} Info: ${attractionsObject.description}" />
