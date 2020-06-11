@@ -1,4 +1,5 @@
 @import "preview.css";
+@import "park.css";
 @import "weather.css";
 @import "eateries.css";
 @import "attractions.css";
@@ -36,7 +37,7 @@ html, body {
     display: flex;
     color: dimgrey;
     flex-flow: column;
-    background-color: #2d609b;
+    background-color: #404a58;
     width: 99%;
     height:100%;
     margin: 0 4px 4px 4px;
@@ -135,7 +136,7 @@ select {
 }
 
 .container__left__lower {
-    
+    color: aliceblue;
     display: flex;
     flex-direction: column;
     flex: 7;
@@ -144,9 +145,8 @@ select {
     padding: 0;
     border: 2px solid #ccc;
     border-radius: 4px;
-    background-color: #f8f8f8;
     overflow: auto;
-    
+    background-color: #404a58;
 }
 
 .container__left__lower h4 {
@@ -174,7 +174,6 @@ select {
   /* Modal Footer */
   .modal-footer {
     padding: 2px 16px;
-    background-color: #5cb85c;
     color: white;
   }
 
@@ -193,7 +192,7 @@ select {
     overflow: auto; /* Enable scroll if needed */
     border: 3px solid #4b5e65;
     color: aliceblue;
-    background-color: #2d609b;
+    background-color: #404a58;
     border-radius: 10px;
   }
 
@@ -212,30 +211,11 @@ select {
  }
 
 
- /* The Close Button */
-.span__close {
-    float:right;
-    text-align: right;
-    color: white;
-    font-size: 55px;
-    font-weight: bold;
-    box-sizing: border-box;
-    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
-    border-radius: 10px;
-  }
-  
-  .span__closeclose:hover,
-  .span__closeclose:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
-
-
-.button__saveItinerary {
+ .button__saveItinerary {
     width: 15vw;
     height: 10vh;
     border-radius: 10px;
+    border: 5px solid palegoldenrod;
     color: aliceblue;
     background-color: #4b5e65;
 }
@@ -258,7 +238,7 @@ select {
 .aside__saved__itineraries {
     display: flex;
     flex-direction: column;
-    background-color: #38547b;
+    background-color: #404a58;
      padding:0.01em 16px;
      box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
      border-radius: 5px;
@@ -272,7 +252,7 @@ select {
     flex: 0 0 30%;
     box-sizing: border-box;
     box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
-    background-color: #2d609b;
+    background-color: #466281;
     padding: 12px 20px;
     margin: .2vh .2vw;
     border-radius: 5px;

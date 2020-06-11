@@ -27,6 +27,8 @@ stateTypeDropdown.addEventListener("change", (changeEvent) => {
 
 })
 
+
+
 parkTypeDropdown.addEventListener("change", (changeEvent) => {
     //get the value chosen by the user
     const userChoice = changeEvent.target.value
@@ -49,6 +51,9 @@ parkTypeDropdown.addEventListener("change", (changeEvent) => {
 
 })
 
+
+
+
 //display parks in dropdown
 const displayParkList = (parkListArray) => {
     
@@ -64,6 +69,7 @@ const displayParkList = (parkListArray) => {
 
         // const parkListElement = document.querySelector(".parkChoice")
         parkListElement.innerHTML += parkListHTML
+
     }
 }
 
@@ -72,11 +78,40 @@ const previewParkElement = document.querySelector(".preview__parks")
 const clearParkPreview = () => previewParkElement.innerHTML = ""
 
 const displayParkPreview = () => {
+    var activeParkDetails = "";
+    var activeParkModal = "";
     clearParkPreview()
 
     const parkPreviewHTML = parkPreviewConverter(natPark)
 
     previewParkElement.innerHTML = parkPreviewHTML
+
+
+    const parkDetailVisibilityButton = document.getElementById("parkPreviewButton")
+    
+   
+    parkDetailVisibilityButton.addEventListener("click", clickEvent => {
+           
+            if ( document.getElementById(`modal__park__details`).style.display === "block") {
+                document.getElementById(`modal__park__details`).style.display = "none";
+                parkDetailVisibilityButton.innerHTML ="Details"
+                activeParkModal = "";
+            } else {
+                if (activeParkModal === "" ) {
+                    document.getElementById(`modal__park__details`).style.display = "block";
+                    activeParkModal = document.getElementById(`modal__park__details`);
+                    activeParkDetails = parkDetailVisibilityButton;
+                    parkDetailVisibilityButton.innerHTML ="Close"
+
+                }
+                
+            }
+                
+            })
+        
+
+
+
 }
 
 const compareWheelchair = () => {
@@ -90,4 +125,5 @@ const compareWheelchair = () => {
         }
     }
     
+
 }

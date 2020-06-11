@@ -1,51 +1,4 @@
-.preview__attractions {
-    display: flex;
-    justify-content: space-between;
-    /*
-    background-color: #000000;
-    background-image: url(../images/weathercontainer.jpg); 
-    background-size: cover;
-    background-repeat: no-repeat; */
-    font-size: 1vw;
-    color: rgb(48, 51, 78);
-    padding: 0 .3vw 0 .3vw;
-    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-    border-radius: 10px;
-}
-
-.attractions__overview {
-    vertical-align: middle;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    padding: 0 .2vh .2vh .2vw;
-    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-    justify-content: center;
-    border-radius: 10px;
-}
-
-.div__section__attraction {
-    vertical-align: middle;
-    justify-content: center;
-    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-    border-radius: 10px;
-}
-
-.attraction__picture {
-    max-width: 30vw;
-    width: 60%;
-    height: auto;
-    box-sizing: border-box;
-    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
-    border-radius: 10px;
- }
-
-.div__section__attraction img {
-    justify-self: center;
-}
-
-.modal--attractions {
+.modal--park {
     color: aliceblue;
     display: flex;
     justify-content: flex-end;
@@ -69,7 +22,7 @@
 .model.closed {
   display: none;
 }
-.modal__details--attractions {
+.modal__details--park {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: auto; /* Sit on top */
@@ -99,7 +52,7 @@
     box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
     border-radius: 10px;
 }
-.modal__content--attractions {
+.modal__content--park {
     font-size: 1vw;
     width: auto;
     padding: 1em;
@@ -111,13 +64,14 @@
 
 }
 
-.div__close--attractions {
+
+.div__close--park {
    display: flex;
    justify-content: flex-end;
    
 }
 
-.button__details--attraction {
+.button__details--park {
     vertical-align: middle;
     height: 70px;
 	width: 70px;
@@ -128,7 +82,7 @@
     cursor: pointer;
  }
 
-.button__details--attraction:active {
+.button__details--park:active {
     transform: scale(.8);
     transition-duration: .5s;
     box-shadow: none;
