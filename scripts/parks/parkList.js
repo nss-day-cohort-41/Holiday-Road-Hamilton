@@ -33,14 +33,15 @@ parkTypeDropdown.addEventListener("change", (changeEvent) => {
     for(currentParkObject of parkCollection2.data) {
         // console.log(parkCollection)
         // console.log(currentParkObject.id)
-        if (userChoice === currentParkObject.id) {
+        if (userChoice === currentParkObject.parkCode) {
 
             natPark = currentParkObject
         }
     }
+    console.log(natPark)
     displayParkPreview()
     // This is just to change the park selection for everything
-    console.log(natPark)
+
 
     //call weather forecast
     getWeather(natPark.latitude, natPark.longitude)

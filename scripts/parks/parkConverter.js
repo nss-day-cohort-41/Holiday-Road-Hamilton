@@ -14,7 +14,7 @@ const parkPreviewConverter = (parkPreviewObject) => {
     
     let parkPreviewPics = []
     parkPreviewPics = parkPreviewObject.images
-
+    console.log(parkPreviewObject)
     const parkPreviewHTML = `<section class="section__park">
     <div class="div__section__park">
         <h1>${parkPreviewObject.fullName}</h1>
