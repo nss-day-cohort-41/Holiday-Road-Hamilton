@@ -1,6 +1,7 @@
+ let weatherArray = []
  const weatherList = (weather) =>{
     let dayCnt = 0;
-
+    weatherArray = weather
     const weatherdivelement= document.querySelector(".weathercontainer")
     weatherdivelement.innerHTML = "";
     for (const currentweatherobject of weather.daily){

@@ -16,6 +16,7 @@ const populateEaterySelect = () => {
 
 eateryDropdown.addEventListener("change", (clickEvent) => {
     clearEateryList();
+
     const eateryID = parseInt(clickEvent.target.value)
     //console.log(`option value ID: ${eateryID}`) 
     for (eatery of eateryCollection) {
@@ -32,7 +33,7 @@ eateryDropdown.addEventListener("change", (clickEvent) => {
 const previewEateries = document.querySelector(".preview__eateries");
 
 const clearEateryList = () => previewEateries.innerHTML = ""
-
+var activeDetails = "";
 var activeModal = "";
 var span = "";
 
@@ -45,38 +46,40 @@ const displayEateriesPreview = (eaterySelectedCollection) => {
         const eateryDetailVisibilityButtons = document.querySelectorAll(`.button__details`)
         eateryDetailVisibilityButtons.forEach(button => {
             button.addEventListener("click", clickEvent => {
-                // document.getElementById(`eatery__details__${clickEvent.target.id}`).classList.toggle("hidden__details")
-                document.getElementById(`modal__eatery__details__${clickEvent.target.id}`).style.display = "block";
-                activeModal = document.getElementById(`modal__eatery__details__${clickEvent.target.id}`);
+               
+                if ( document.getElementById(`modal__eatery__details__${clickEvent.target.id}`).style.display === "block") {
+                    document.getElementById(`modal__eatery__details__${clickEvent.target.id}`).style.display = "none";
+                    button.innerHTML ="Details"
+                    activeModal = "";
+                } else {
+                    if (activeModal === "" ) {
+                        document.getElementById(`modal__eatery__details__${clickEvent.target.id}`).style.display = "block";
+                        activeModal = document.getElementById(`modal__eatery__details__${clickEvent.target.id}`);
+                        activeDetails = button;
+                        button.innerHTML ="Close"
+                        span = document.getElementsByClassName("close")[0];
+                    }
+                    
+                }
+                    
                 })
             });
+  
         
     }
 }
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == activeModal) {
-      activeModal.style.display = "none";
-    }
-  }
+
+// // When the user clicks anywhere outside of the modal, close it
+// window.onclick = function(event) {
+//     if (event.target == activeModal) {
+//       activeModal.style.display = "none";
+//       detailsButtons = document.querySelectorAll(`.button__details`)
+//       for (button in detailsButtons) {
+//           if (button.value === "Close") { button.innerHTML = "Details"}
+//       }
+//       activeModal = ""
+//     }
+//   }
 
 
-/*
-                var modal = document.getElementById(`modal__eatery__details__${clickEvent.target.id}`)
-                // Get the <span> element that closes the modal
-                var span = document.getElementsByClassName("close")[0];
-
-                // When the user clicks on <span> (x), close the modal
-                span.onclick = function() {
-                    document.getElementById(`modal__eatery__details__${clickEvent.target.id}`) = "none";
-
-                }
-
-                // When the user clicks anywhere outside of the modal, close it
-                window.onclick = function(event) {
-                    if (event.target == modal) {
-                    document.getElementById(`modal__eatery__details__${clickEvent.target.id}`).style.display = "none";
-                    }
-                }
-                */

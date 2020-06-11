@@ -5,7 +5,7 @@ const eventHub = document.querySelector(".weathercontainer")
 
 function checkStatus(res) {
   if (!res.ok) {
-      console.log("unable to serve weather")
+      //console.log("unable to serve weather")
       throw new Error(res.Error);
   }
   return res;

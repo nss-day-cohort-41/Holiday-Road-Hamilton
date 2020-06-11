@@ -1,4 +1,6 @@
 getWheelchairData()
+deleteItenerary()
+
 getParkData()
 
 // Testing Eatery Fetch
