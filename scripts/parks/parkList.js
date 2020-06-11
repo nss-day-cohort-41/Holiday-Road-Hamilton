@@ -20,7 +20,7 @@ stateTypeDropdown.addEventListener("change", (changeEvent) => {
     clearParkArray()
     clearParkDropdown()
     //refill array and refill the park list
-    parkQuery = "https://developer.nps.gov/api/v1/parks?stateCode=" + userChoice + "&api_key=WPMjMAxhvLivTCo3ad7Y1hb9QNTV8dMj910THzHP"
+    parkQuery = "https://developer.nps.gov/api/v1/parks?stateCode=" + userChoice + `&api_key=${keys.npsKey}`
     getParkData().then((response) => displayParkList(response))
 
     //send data to userChoice global variable
@@ -33,15 +33,16 @@ parkTypeDropdown.addEventListener("change", (changeEvent) => {
     for(currentParkObject of parkCollection2.data) {
         // console.log(parkCollection)
         // console.log(currentParkObject.id)
-        if (userChoice === currentParkObject.id) {
+        if (userChoice === currentParkObject.parkCode) {
 
             natPark = currentParkObject
         }
     }
+    console.log(natPark)
     displayParkPreview()
     
     // This is just to change the park selection for everything
-    console.log(natPark)
+
 
     //call weather forecast
     getWeather(natPark.latitude, natPark.longitude)
@@ -76,4 +77,17 @@ const displayParkPreview = () => {
     const parkPreviewHTML = parkPreviewConverter(natPark)
 
     previewParkElement.innerHTML = parkPreviewHTML
+}
+
+const compareWheelchair = () => {
+    for(currentWheelchairObject of wheelchairCollection) {
+        park1 = currentWheelchairObject.parkCode
+        for(currentParkObject of parkCollection2.data) {
+            if (park1 === currentParkObject.parkCode) {
+                let element = document.getElementById(`${currentParkObject.parkCode}`)
+                element.classList.toggle("wheelchairHighlight")
+            }
+        }
+    }
+    
 }

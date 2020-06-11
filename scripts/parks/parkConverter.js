@@ -5,7 +5,7 @@ take what they select and iterate selection into html preview
 
 const parkDropdownConverter = (parkObject) => {
 
-    const parkListHTML = `<option value="${parkObject.id}">${parkObject.name}</option>`
+    const parkListHTML = `<option id="${parkObject.parkCode}" value="${parkObject.parkCode}">${parkObject.name}</option>`
 
     return parkListHTML
 }
@@ -14,7 +14,7 @@ const parkPreviewConverter = (parkPreviewObject) => {
     
     let parkPreviewPics = []
     parkPreviewPics = parkPreviewObject.images
-
+    console.log(parkPreviewObject)
     const parkPreviewHTML = `<section class="section__park">
     <div class="div__section__park">
         <h1>${parkPreviewObject.fullName}</h1>
@@ -25,3 +25,4 @@ const parkPreviewConverter = (parkPreviewObject) => {
 
     return parkPreviewHTML
 }
+

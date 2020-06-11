@@ -344,3 +344,7 @@ select {
     border-radius: 4px;
     justify-content: center;
   }
+
+.wheelchairHighlight {
+    background-color: #2d609b;
+}
