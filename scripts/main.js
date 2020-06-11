@@ -1,3 +1,4 @@
+getWheelchairData().then(console.log(wheelchairCollection))
 getParkData()
 
 // Testing Eatery Fetch

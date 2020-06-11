@@ -20,7 +20,7 @@ stateTypeDropdown.addEventListener("change", (changeEvent) => {
     clearParkArray()
     clearParkDropdown()
     //refill array and refill the park list
-    parkQuery = "https://developer.nps.gov/api/v1/parks?stateCode=" + userChoice + "&api_key=WPMjMAxhvLivTCo3ad7Y1hb9QNTV8dMj910THzHP"
+    parkQuery = "https://developer.nps.gov/api/v1/parks?stateCode=" + userChoice + `&api_key=${keys.npsKey}`
     getParkData().then((response) => displayParkList(response))
 
     //send data to userChoice global variable
