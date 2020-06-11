@@ -1,6 +1,7 @@
+
 const weatherConverter = (weatherObject) => {
-  var counter=0
-  counter ++  
+ 
+ 
   return ` 
       <div class="weather__box">
         <h3>Day ${counter}</h3>
