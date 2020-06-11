@@ -33,6 +33,7 @@ saveButton.addEventListener("click", (clickEvent) => {
     postObject.attractions = attractionSelectionArray
     postObject.eateries = eaterySelectedCollection
     API.saveItineraryEntry(postObject)
+    itinerariesList(postObject)
     const parkDivElement = document.querySelector(".preview__parks")
     parkDivElement.innerHTML = ""
     clearAttractionsList()
