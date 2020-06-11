@@ -1,5 +1,6 @@
+var counter=0
 const weatherConverter = (weatherObject) => {
-  var counter=0
+ 
   counter ++  
   return ` 
       <div class="weather__box">
