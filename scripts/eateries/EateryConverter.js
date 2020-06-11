@@ -28,11 +28,11 @@ const eateryConverter = (eateryObject) => {
                 Description: ${eateryObject.description}<br>
                 Location: ${eateryObject.city}, ${eateryObject.state}<br>
                 Amenties: ${amenitiesStr}
+               <div class="div__close">Click Close button by Eatery Picture to Close</div>
             </div>
             
         </div>
-        <span id="modal_close" onclick="document.getElementById('id01').style.display='none'" 
-        class="w3-button w3-display-topright">&times;</span>
+        
     </div>
     `;
 

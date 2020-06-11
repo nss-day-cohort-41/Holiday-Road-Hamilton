@@ -196,6 +196,7 @@ select {
       color: aliceblue;
       display: flex;
       justify-content: flex-end;
+      height: auto;
   }
   /* Modal Body */
   .modal-body {padding: 2px 16px;}
@@ -214,10 +215,10 @@ select {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: auto; /* Sit on top */
-    left: 0;
-    top: 0;
+    left: 20px;
+    top: 150px;
     padding: 1vh 1vw;
-    width: auto; /* Full width */
+    width: 90%; /* Full width */
     height: auto; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     border: 3px solid #4b5e65;
@@ -234,6 +235,11 @@ select {
     width: 80%; /* Could be more or less, depending on screen size */
  }
 
+ .div__close {
+     display: flex;
+     justify-content: flex-end;
+     
+ }
 
 
  /* The Close Button */
