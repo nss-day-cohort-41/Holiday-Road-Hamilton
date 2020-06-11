@@ -8,7 +8,7 @@ let natPark = {}
 let e = document.getElementById("state")
 let stateValue = e.options[e.selectedIndex].value
 
-let parkQuery = "https://developer.nps.gov/api/v1/parks?stateCode=" + stateValue + "&api_key=WPMjMAxhvLivTCo3ad7Y1hb9QNTV8dMj910THzHP"
+let parkQuery = "https://developer.nps.gov/api/v1/parks?stateCode=" + stateValue + `&api_key=${keys.npsKey}`
 
 
 
