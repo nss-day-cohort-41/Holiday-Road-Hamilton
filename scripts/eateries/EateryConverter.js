@@ -24,16 +24,19 @@ const eateryConverter = (eateryObject) => {
     <div id="myModal" class="modal">
         <div class="modal__eatery__details" id="modal__eatery__details__${eateryObject.id}">
             <div class="modal__content">
-                <span class="close">&times;</span>
                 <strong>${eateryObject.businessName}</strong><br>
                 Description: ${eateryObject.description}<br>
                 Location: ${eateryObject.city}, ${eateryObject.state}<br>
                 Amenties: ${amenitiesStr}
+               <div class="div__close">Click Close button by Eatery Picture to Close</div>
             </div>
+            
         </div>
+        
     </div>
     `;
 
     return eateryHTMLRepresentation;
 }
+
 
