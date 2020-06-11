@@ -1,3 +1,5 @@
+@import "weather.css";
+
 html, body {
     height: 100%;
     margin: 0;
@@ -311,10 +313,16 @@ select {
       height: auto;
   }
   .eatery__picture {
+    max-width: 20vw;
     width: 60%;
     height: auto;
+    box-sizing: border-box;
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+    
 }
 .park__pic {
+    
     width: 60%;
     height: auto;
 }
