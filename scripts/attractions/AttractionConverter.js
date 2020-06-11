@@ -31,13 +31,16 @@ const attractionsItineraryConverter = (attractionsObject) => {
         <div id="myModal" class="modal--attractions">
             <div class="modal__details--attractions" id="modal__attraction__details__${attractionsObject.id}">
                 <div class="modal__content--attractions">
-                        <span class="close">&times;</span>
                             <strong>${attractionsObject.name}</strong><br>
                             Description: ${attractionsObject.description}<br>
                             Location: ${attractionsObject.city}, ${attractionsObject.state}<br>
                             Amenties: <br>
                                 Souvenirs: ${souvenirs}<br>
                                 Restrooms:${restrooms}
+                    <div class="modal__picture">
+                        Click Close button by Attraction Picture to Close
+                    </div>
+                    
                 </div>
             </div>
         </div>

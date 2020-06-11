@@ -52,6 +52,12 @@
     display: flex;
     justify-content: flex-end;
     height: auto;
+    background-color: dimgray;
+    border: 12px solid #38547b ;
+    box-sizing: border-box;
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+
 }
 /* Modal Body */
 .modal-body {padding: 2px 16px;}
@@ -59,7 +65,6 @@
 /* Modal Footer */
 .modal-footer {
   padding: 2px 16px;
-  background-color: #5cb85c;
   color: white;
 }
 
@@ -71,15 +76,41 @@
   position: fixed; /* Stay in place */
   z-index: auto; /* Sit on top */
   left: 20px;
-  top: 150px;
+  top: 80px;
   padding: 1vh 1vw;
-  width: 90%; /* Full width */
+  width: 80%; /* Full width */
   height: auto; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  border: 3px solid #4b5e65;
   color: aliceblue;
-  background-color: #2d609b;
+  background-color: dimgray;
   border-radius: 10px;
+  border: 12px solid black ;
+}
+
+.modal__picture {
+    display: flex;
+    justify-content: flex-end;
+
+}
+.modal__attraction__picture {
+    opacity: .1;
+    max-width: 10vw;
+    /* width: 10%; */
+    height: auto;
+    box-sizing: border-box;
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+}
+.modal__content--eatery {
+    font-size: 1vw;
+    width: auto;
+    padding: 1em;
+    background-color: #38547b;
+    border: 10px dashed palegoldenrod ;
+    box-sizing: border-box;
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+
 }
 
 

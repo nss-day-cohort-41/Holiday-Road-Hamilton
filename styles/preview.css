@@ -1,6 +1,7 @@
 .preview__main {
     margin: .2vh .2vw;
     height: 100%;
+    color: #466281;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
@@ -13,7 +14,7 @@
     padding: 12px 20px;
     margin: .2vh .2vw;
     box-sizing: border-box;
-    border: 2px solid #ccc;
+    /* border: 2px solid #ccc; */
     border-radius: 4px;
     background-color: #f8f8f8;
 
