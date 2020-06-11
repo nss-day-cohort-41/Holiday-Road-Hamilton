@@ -15,23 +15,23 @@ const eateryConverter = (eateryObject) => {
     const eateryHTMLRepresentation = `
     <section class="section__eatery">
         <div class="div__section__eatery">
-        <h1>Name: ${eateryObject.businessName}</h1>
-         <img class="eatery__picture" src="${eateryObject.picture}"
-            alt="${eateryObject.businessName} Info: ${eateryObject.description}" />
+            <h1>Name: ${eateryObject.businessName}</h1>
+            <img class="eatery__picture" src="${eateryObject.picture}"
+                alt="${eateryObject.businessName} Info: ${eateryObject.description}" />
         </div>
-        <div id="myModal" class="modal">
-
         <button name="details__button" class="button__details" id="${eateryObject.id}">Details</button>
     </section>
-    <div class="modal__eatery__details" id="modal__eatery__details__${eateryObject.id}">
-    <div class="modal__content">
-    <span class="close">&times;</span>
-        <strong>${eateryObject.businessName}</strong><br>
-        Description: ${eateryObject.description}<br>
-        Location: ${eateryObject.city}, ${eateryObject.state}<br>
-        Amenties: ${amenitiesStr}
+    <div id="myModal" class="modal">
+        <div class="modal__eatery__details" id="modal__eatery__details__${eateryObject.id}">
+            <div class="modal__content">
+                <span class="close">&times;</span>
+                <strong>${eateryObject.businessName}</strong><br>
+                Description: ${eateryObject.description}<br>
+                Location: ${eateryObject.city}, ${eateryObject.state}<br>
+                Amenties: ${amenitiesStr}
+            </div>
+        </div>
     </div>
- </div>
     `;
 
     return eateryHTMLRepresentation;
