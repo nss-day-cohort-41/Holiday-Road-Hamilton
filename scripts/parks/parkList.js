@@ -68,7 +68,6 @@ const displayParkList = (parkListArray) => {
     // i dont even know
     parkCollection2 = parkListArray
     
-    
     const parkListElement = document.querySelector(".parkChoice")
     parkListElement.innerHTML = `<option value="">Select a Park</option>`
     // parkCollection is an object with an array in the "data" key

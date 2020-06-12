@@ -4,7 +4,7 @@
     justify-content: flex-end;
     height: auto;
     background-color: dimgray;
-    border: 12px solid #38547b ;
+    /* border: 12px solid #38547b ; */
     box-sizing: border-box;
     box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
     border-radius: 10px;

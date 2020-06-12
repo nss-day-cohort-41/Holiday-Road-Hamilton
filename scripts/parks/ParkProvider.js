@@ -44,3 +44,9 @@ const getParkData = () => {
         }
     )
 }
+
+const checkCellFunction = () => {
+  
+    window.open("https://www.nperf.com/en/map/US/-/-/signal/?ll=47.93335932610921&lg=-123.45000000000002&zoom=3")
+  }
+  
