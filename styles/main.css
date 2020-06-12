@@ -3,6 +3,7 @@
 @import "weather.css";
 @import "eateries.css";
 @import "attractions.css";
+@import "itineraries.css";
 
 html, body {
     height: 100%;
@@ -298,43 +299,6 @@ select {
     background-color: #f8f8f8;
     overflow: auto;
 }
-.aside__saved__itineraries {
-    display: flex;
-    flex-direction: column;
-    background-color: #404a58;
-     padding:0.01em 16px;
-     box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
-     border-radius: 5px;
-     padding: 12px 20px;
-     margin: .2vh .2vw;
-     overflow: scroll;
-
-  }
-
-.section__itinerary__card {
-    flex: 0 0 30%;
-    box-sizing: border-box;
-    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
-    background-color: #466281;
-    padding: 12px 20px;
-    margin: .2vh .2vw;
-    border-radius: 5px;
-    
-}
-
-  .header__itinerary__card {
-    color:dimgray;
-    background-color:#f1f1f1;
-    border-radius: 5px;
-  }
-
-  .content__itinerary__card {
-    color: aliceblue;
-    padding:0.01em 10px;
-    margin-top:10px;
-    margin-bottom:10px;
-  }
- 
 
 .park__pic {
     max-width: 70vw;
