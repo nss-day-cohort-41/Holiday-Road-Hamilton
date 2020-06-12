@@ -3,13 +3,28 @@ const eateryDropdown = document.getElementById("eatery__dropdown");
 
 //Populate select with JSON return
 const populateEaterySelect = () => {
+    let wheelCtr = 0;
+
     const eateryDropdown = document.getElementById('eatery__dropdown')
     eateryDropdown.innerHTML = `<option value="0A">Select an Eatery</option>`
     eateryCollection.forEach(
         eateryObject => 
-        {
-
+        {       
+            if (wheelchairFlag === true) { 
+                for (amenity in eateryObject.amenities) {
+                    //console.log(`Amenities: ${amenity}-${eateryObject.amenities["wheelchairAccessible"]}->${eateryObject.amenities[amenity]}`)
+                    
+                    if (amenity === "wheelchairAccessible" & eateryObject.amenities[amenity] === true) {
+                        wheelCtr++;
+                        console.log(`WheelchairAccessible Eateries: ${wheelCtr}`)
+                        return eateryDropdown.innerHTML += `<option value="${eateryObject.id}">${eateryObject['businessName']}</option>`;
+                    }
+                }
+            } else {
                 return eateryDropdown.innerHTML += `<option value="${eateryObject.id}">${eateryObject['businessName']}</option>`;
+            }
+
+                
         }
     )
 }
@@ -44,7 +59,7 @@ var activeEateryModal = "";
 
 
 const displayEateriesPreview = (eaterySelectedCollection) => {
-
+    
     for (const currEateryObject of eaterySelectedCollection) {
  
         const eateryHTML = eateryConverter(currEateryObject);

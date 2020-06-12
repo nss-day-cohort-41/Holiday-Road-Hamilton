@@ -210,6 +210,31 @@ select {
      
  }
 
+ .wheelchairAccessibleCheckbox {
+    max-width: 70%;
+    padding: 0 .3vw 0 .3vw;
+    height: 20%;
+    background: 0;
+    text-align: left;
+    vertical-align: middle;
+    font-size: .9vw;;
+
+ }
+
+.accessible {
+    max-width: 70%;
+    padding: 0 .3vw 0 .3vw;
+    height: 20%;
+    background: 0;
+    text-align: left;
+    vertical-align: middle;
+    font-size: .9vw;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
 
  .button__saveItinerary {
     width: 15vw;

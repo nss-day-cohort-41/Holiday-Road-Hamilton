@@ -24,6 +24,8 @@ stateTypeDropdown.addEventListener("change", (changeEvent) => {
     getParkData().then((response) => displayParkList(response))
 
     //send data to userChoice global variable
+    enableDisableButton("parkWCAButton","enable")
+
 
 })
 
