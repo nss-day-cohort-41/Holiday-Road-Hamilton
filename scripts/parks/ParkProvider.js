@@ -25,7 +25,7 @@ const getWheelchairData = () => {
         (wheelchairArray) => {
             //omg this works?? i can't believe nested array properties in objects was this simple
             wheelchairCollection = wheelchairArray.data[0][0].parks
-            console.log(wheelchairCollection)
+
             return wheelchairCollection
         }
     )
@@ -45,3 +45,9 @@ const getParkData = () => {
         }
     )
 }
+
+const checkCellFunction = () => {
+  
+    window.open("https://www.nperf.com/en/map/US/-/-/signal/?ll=47.93335932610921&lg=-123.45000000000002&zoom=3")
+  }
+  

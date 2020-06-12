@@ -20,7 +20,6 @@
                 <div class="instructions__header__itineraries">4 - Check Your Saved Itineraries Here</div>
             </div>       
         </div>
-        
 
         <div class="container__upper">
            
@@ -82,12 +81,15 @@
                         <option value="wi">Wisconsin</option>
                         <option value="wy">Wyoming</option>
                     </select>
-                    <!-- <input type="checkbox" name="wheelchairBox" id="wheelchairBox">
-                    <label for="wheelchairBox">Wheelchair Accessibility</label> -->
                     <br><select class="parkChoice" id="park__dropdown">
                         <option value="">Select a Park</option>
                     </select>
-                    <button class="accessible" id="parkWCAButton" onclick="compareWheelchair()">Wheelchair Accessible</button>
+                    <button class="accessible" id="parkWCAButton" onclick="compareWheelchair()">
+                        <span title="Click me to highlight handicap accessible parks!">
+                            <img id="handicapPic" src="images/handicap.png" alt="">
+                        </span>
+                    </button>
+                    </button>
                     <!-- list stuff here -->
                 </div>
                 <div class="attractions__list">
@@ -101,9 +103,9 @@
                     <label for="eatery__dropdown">Eatery List</label>
                     <select id="eatery__dropdown" name="eatery__dropdown"></select><br>
                     <label class="accessible" for="eateryWCA">Wheelchair Accessible List</label>
-                    <input type="checkbox" id="eateryWCA" name="eateryWCA" value="eateryWCA"><br>
-                    <label class="accessible" for="eateryWCA">WiFi Avail List</label>
-                    <input type="checkbox" id="eateryWCA" name="eateryWCA" value="eateryWCA">
+                    <input type="checkbox" id="eateryWCACheckbox" name="eateryWCA" value="eateryWCA"><br>
+                    <label class="accessible" for="eateryWIFI">WiFi Avail List</label>
+                    <input type="checkbox" id="eateryWIFICheckbox" name="eateryWIFI" value="eateryWCA">
                     
                     <!-- list stuff here -->
                 </div>
