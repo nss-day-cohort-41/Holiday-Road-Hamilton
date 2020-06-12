@@ -24,3 +24,8 @@ function enableDisableButton (buttonID,buttonState) {
     
     
 }
+
+function getCheckboxState(checkboxID) {
+    return document.getElementById(checkboxID).checked
+    
+}
