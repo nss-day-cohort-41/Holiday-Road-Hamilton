@@ -2,7 +2,7 @@ const itinerariesConverter = (itinerariesObject) => {
     return ` 
 
     <section class="section__itinerary__card">
-    <div class="header__itinerary__card">Itinerary Card</div>
+    
     <div class="content__itinerary__card">
 
         <div class="itineraries__box">
