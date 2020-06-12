@@ -1,6 +1,8 @@
 //Declare eatery Select constant to save typing below
 const eateryDropdown = document.getElementById("eatery__dropdown");
 
+const eateryWCACheckbox = document.getElementById("eateryWCACheckbox")
+
 //Populate select with JSON return
 const populateEaterySelect = () => {
     let wheelCtr = 0;
@@ -10,7 +12,8 @@ const populateEaterySelect = () => {
     eateryCollection.forEach(
         eateryObject => 
         {       
-            if (wheelchairFlag === true) { 
+            
+            if (getCheckboxState("eateryWCACheckbox") === true) { 
                 for (amenity in eateryObject.amenities) {
                     //console.log(`Amenities: ${amenity}-${eateryObject.amenities["wheelchairAccessible"]}->${eateryObject.amenities[amenity]}`)
                     
