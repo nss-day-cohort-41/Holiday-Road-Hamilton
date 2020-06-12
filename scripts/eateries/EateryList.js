@@ -1,33 +1,59 @@
 //Declare eatery Select constant to save typing below
 const eateryDropdown = document.getElementById("eatery__dropdown");
+const filterCheckboxes = ["eateryWCACheckbox","eateryWIFICheckbox"]
+filterCheckboxes.forEach(addCheckboxListeners)
+function addCheckboxListeners(filterCheckbox) {
 
-const eateryWCACheckbox = document.getElementById("eateryWCACheckbox")
+    thisCheckbox = document.getElementById(filterCheckbox)
+    thisCheckbox.addEventListener('click', thisButton => {
+        
+        eateryAPI.getEateries().then(populateEaterySelect)
+    })
+}
+
 
 //Populate select with JSON return
 const populateEaterySelect = () => {
-    let wheelCtr = 0;
-
+    
+    
     const eateryDropdown = document.getElementById('eatery__dropdown')
+    eateryDropdown.innerHTML = "";
     eateryDropdown.innerHTML = `<option value="0A">Select an Eatery</option>`
     eateryCollection.forEach(
         eateryObject => 
         {       
-            
-            if (getCheckboxState("eateryWCACheckbox") === true) { 
+            let WIFIStatus = false;
+            let WCAStatus = false;
+            let returnStatus = false;
+            if ((getCheckboxState("eateryWCACheckbox") === true) || ((getCheckboxState("eateryWIFICheckbox")) === true)) { 
                 for (amenity in eateryObject.amenities) {
-                    //console.log(`Amenities: ${amenity}-${eateryObject.amenities["wheelchairAccessible"]}->${eateryObject.amenities[amenity]}`)
+                    if (amenity === "wheelchairAccessible" && eateryObject.amenities[amenity] === true) { WCAStatus = true }
+                    if ( amenity === "wifi" && eateryObject.amenities[amenity] === true ) { WIFIStatus = true }
+                }  // end amenties check
+
+                // return if filtered
+                if ( ( WCAStatus === true && WIFIStatus === true) && ( (getCheckboxState("eateryWCACheckbox") === true) && ( getCheckboxState("eateryWIFICheckbox") === true)) ) { 
                     
-                    if (amenity === "wheelchairAccessible" & eateryObject.amenities[amenity] === true) {
-                        wheelCtr++;
-                        //console.log(`WheelchairAccessible Eateries: ${wheelCtr}`)
-                        return eateryDropdown.innerHTML += `<option value="${eateryObject.id}">${eateryObject['businessName']}</option>`;
+                    returnStatus = true;
+                    return eateryDropdown.innerHTML += `<option value="${eateryObject}">${eateryObject['businessName']}</option>`; 
+                } else {
+                    if ( (WCAStatus === true) && (getCheckboxState("eateryWCACheckbox") === true) && (returnStatus === false) && (getCheckboxState("eateryWIFICheckbox") === false)) {
+                        returnStatus = true;
+                        return eateryDropdown.innerHTML += `<option value="${eateryObject.id}">${eateryObject['businessName']}</option>`; 
+                    } 
+                    if ( (WIFIStatus === true) && (getCheckboxState("eateryWIFICheckbox") === true)  && (returnStatus === false) && (getCheckboxState("eateryWCACheckbox") === false))  {
+                        returnStatus = true;
+                        return eateryDropdown.innerHTML += `<option value="${eateryObject.id}">${eateryObject['businessName']}</option>`; 
                     }
                 }
-            } else {
-                return eateryDropdown.innerHTML += `<option value="${eateryObject.id}">${eateryObject['businessName']}</option>`;
+                
+            } else { 
+                // return not filtered
+                
+                return eateryDropdown.innerHTML += `<option value="${eateryObject.id}">${eateryObject['businessName']}</option>`; 
             }
 
-                
+            
         }
     )
 }
@@ -36,7 +62,7 @@ eateryDropdown.addEventListener("change", (clickEvent) => {
     clearEateryList();
 
     const eateryID = parseInt(clickEvent.target.value)
-    //console.log(`option value ID: ${eateryID}`) 
+    
     for (eatery of eateryCollection) {
         if (eatery["id"]  === eateryID) {
             // If empty array and object not already in array, push it to the array

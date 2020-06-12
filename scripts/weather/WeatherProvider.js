@@ -25,7 +25,6 @@ const getWeather = (lat,long) => {
         return weather
       })
      .then((weather)=>{
-         console.log(weather)
          weatherList(weather)
      })
   }

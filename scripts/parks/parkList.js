@@ -44,7 +44,7 @@ parkTypeDropdown.addEventListener("change", (changeEvent) => {
             natPark = currentParkObject
         }
     }
-    console.log(natPark)
+    
     displayParkPreview()
     
     // This is just to change the park selection for everything
@@ -52,7 +52,7 @@ parkTypeDropdown.addEventListener("change", (changeEvent) => {
 
     //call weather forecast
     getWeather(natPark.latitude, natPark.longitude)
-    console.log(natPark, attractionSelectionArray, eaterySelectedCollection)
+    
     if(natPark != undefined) {
         document.getElementById("attractions__dropdown").disabled = false
     }
