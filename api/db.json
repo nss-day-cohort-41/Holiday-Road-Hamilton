@@ -1453,117 +1453,58 @@
         "contacts": {
           "phoneNumbers": [
             {
-              "phoneNumber": "3025446363",
-              "description": "This phone number is not staffed. You can leave a message on the park's main phone number (302-544-6363) and we will return your call as soon as possible. If you are visiting one of the seven sites, and need specific information, please refer to the \"Places to Go\" page for phone numbers and addresses of each site.",
+              "phoneNumber": "208-825-4169",
+              "description": "",
               "extension": "",
               "type": "Voice"
+            },
+            {
+              "phoneNumber": "2088374857",
+              "description": "",
+              "extension": "",
+              "type": "Fax"
             }
           ],
           "emailAddresses": [
             {
               "description": "",
-              "emailAddress": "firststate@nps.gov"
+              "emailAddress": "miin_information@nps.gov"
             }
           ]
         },
-        "states": "DE,PA",
-        "longitude": "-75.56353942",
+        "states": "ID,WA",
+        "longitude": "-114.4449868",
         "activities": [
-          {
-            "id": "7CE6E935-F839-4FEC-A63E-052B1DEF39D2",
-            "name": "Biking"
-          },
-          {
-            "id": "31F88DA6-696F-441F-89CF-D7B1415C4CB9",
-            "name": "Citizen Science"
-          },
-          {
-            "id": "AE42B46C-E4B7-4889-A122-08FE180371AE",
-            "name": "Fishing"
-          },
-          {
-            "id": "1DFACD97-1B9C-4F5A-80F2-05593604799E",
-            "name": "Food"
-          },
-          {
-            "id": "25FB188F-5AAD-459A-9092-28A9801709FF",
-            "name": "Freshwater Fishing"
-          },
-          {
-            "id": "45261C0A-00D8-4C27-A1F8-029F933A0D34",
-            "name": "Front-Country Hiking"
-          },
-          {
-            "id": "42FD78B9-2B90-4AA9-BC43-F10E9FEA8B5A",
-            "name": "Hands-On"
-          },
-          {
-            "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
-            "name": "Hiking"
-          },
-          {
-            "id": "0307955A-B65C-4CE4-A780-EB36BAAADF0B",
-            "name": "Horse Trekking"
-          },
-          {
-            "id": "1886DA47-0AEC-4568-B9C2-8E9BC316AAAC",
-            "name": "Horseback Riding"
-          },
           {
             "id": "DF4A35E0-7983-4A3E-BC47-F37B872B0F25",
             "name": "Junior Ranger Program"
           },
           {
-            "id": "B204DE60-5A24-43DD-8902-C81625A09A74",
-            "name": "Living History"
+            "id": "C8F98B28-3C10-41AE-AA99-092B3B398C43",
+            "name": "Museum Exhibits"
           },
           {
-            "id": "299CB934-88DC-474F-A33D-E43E29A149C2",
-            "name": "Mountain Biking"
-          },
-          {
-            "id": "C6D3230A-2CEA-4AFE-BFF3-DC1E2C2C4BB4",
-            "name": "Picnicking"
+            "id": "A0631906-9672-4583-91DE-113B93DB6B6E",
+            "name": "Self-Guided Tours - Walking"
           }
         ],
         "entranceFees": [
           {
             "cost": "0.0000",
-            "description": "There are no fees to visit First State National Historical Park. Some partner sites may charge a small fee for special programs.",
-            "title": "First State Fees"
+            "description": "There is no charge for entering or visiting Minidoka National Historic Site.",
+            "title": "Minidoka Entrance Fee"
           }
         ],
-        "directionsInfo": "Seven sites make up First State National Historical Park in Delaware and southeastern Pennsylvania. For details and directions for each site, please visit the visitor centers page below.",
-        "entrancePasses": [
-          {
-            "cost": "0.0000",
-            "description": "First State National Historical Park does not sell or accept park passes, because we are a fee-free park.",
-            "title": "First State Passes"
-          }
-        ],
-        "directionsUrl": "http://www.nps.gov/frst/planyourvisit/directions.htm",
-        "url": "https://www.nps.gov/frst/index.htm",
-        "weatherInfo": "For details and information, visit, http://www.nps.gov/frst/index.htm.",
-        "name": "First State",
+        "directionsInfo": "Minidoka National Historic Site is located between the towns of Twin Falls and Jerome, Idaho in south central Idaho. There are minimal facilities and services at the site. Many buildings and features that were part of the center are located on private property surrounding the Historic Site. Please do not enter any private property.",
+        "entrancePasses": [],
+        "directionsUrl": "http://www.nps.gov/miin/planyourvisit/directions.htm",
+        "url": "https://www.nps.gov/miin/index.htm",
+        "weatherInfo": "Jerome and Twin Falls, Idaho, gets 10 inches of rain per year. On average, there are 213 sunny days per year here. The July high is around 94 degrees. The January low is 22. Our comfort index, which is based on humidity during the hot months, is a 78 out of 100, where higher is more comfortable. The US average on the comfort index is 44.",
+        "name": "Minidoka",
         "operatingHours": [
           {
-            "exceptions": [
-              {
-                "exceptionHours": {
-                  "wednesday": "8:00AM - 4:00PM",
-                  "monday": "8:00AM - 4:00PM",
-                  "thursday": "8:00AM - 4:00PM",
-                  "sunday": "8:00AM - 4:00PM",
-                  "tuesday": "8:00AM - 4:00PM",
-                  "friday": "8:00AM - 4:00PM",
-                  "saturday": "8:00AM - 4:00PM"
-                },
-                "startDate": "2020-06-11",
-                "name": "Hours of Operation for Brandywine Creek State Park Nature Center",
-                "endDate": "2020-12-25"
-              }
-            ],
-            "description": "Brandywine Valley consists of 1,100 acres of rolling hills and wooded areas are located along the Brandywine River and the arced border between northern Delaware and southern Pennsylvania.",
+            "exceptions": [],
+            "description": "The Historic Site is open daily during daylight hours year-round.\nIt is still being developed. Please be prepared. Wear sturdy footwear and bring water. \nThere is little - no shade at the site. The Historic Site is located on a county road. It may not be well maintained during winter weather. Please check road conditions before venturing there.",
             "standardHours": {
               "wednesday": "Sunrise to Sunset",
               "monday": "Sunrise to Sunset",
@@ -1573,375 +1514,322 @@
               "friday": "Sunrise to Sunset",
               "saturday": "Sunrise to Sunset"
             },
-            "name": "Brandywine Valley"
-          },
-          {
-            "exceptions": [
-              {
-                "exceptionHours": {},
-                "startDate": "2020-05-21",
-                "name": "Closed Until Further Notice",
-                "endDate": "2020-06-10"
-              }
-            ],
-            "description": "It was here, along the banks of the Christina River over 375 years ago, that the first Swedish and Finnish American settlers aboard the Kalmar Nyckel and the Fogel Grip landed and settled the first American Swedish colony, New Sweden.",
-            "standardHours": {
-              "wednesday": "10:00AM - 4:00PM",
-              "monday": "Closed",
-              "thursday": "10:00AM - 4:00PM",
-              "sunday": "12:00PM - 4:00PM",
-              "tuesday": "10:00AM - 4:00PM",
-              "friday": "10:00AM - 4:00PM",
-              "saturday": "10:00AM - 4:00PM"
-            },
-            "name": "Fort Christina"
-          },
-          {
-            "exceptions": [
-              {
-                "exceptionHours": {
-                  "wednesday": "Closed",
-                  "monday": "Closed",
-                  "thursday": "Closed",
-                  "sunday": "Closed",
-                  "tuesday": "Closed",
-                  "friday": "Closed",
-                  "saturday": "Closed"
-                },
-                "startDate": "2020-03-15",
-                "name": "Closed Due to COVID-19",
-                "endDate": "2020-07-15"
-              }
-            ],
-            "description": "The Church known as \"the nation's oldest church building still used for worship as originally built\" began construction in 1698 and was completed by 1699. The burial ground's 2,000 gravestones reveal hundreds of years of history.",
-            "standardHours": {
-              "wednesday": "10:00AM - 4:00PM",
-              "monday": "Closed",
-              "thursday": "10:00AM - 4:00PM",
-              "sunday": "Closed",
-              "tuesday": "Closed",
-              "friday": "10:00AM - 4:00PM",
-              "saturday": "10:00AM - 4:00PM"
-            },
-            "name": "Old Swedes Church"
-          },
-          {
-            "exceptions": [
-              {
-                "exceptionHours": {
-                  "wednesday": "Closed",
-                  "monday": "Closed",
-                  "thursday": "Closed",
-                  "sunday": "Closed",
-                  "tuesday": "Closed",
-                  "friday": "Closed",
-                  "saturday": "Closed"
-                },
-                "startDate": "2020-03-24",
-                "name": "Temporary Restricted Hours",
-                "endDate": "2020-07-15"
-              }
-            ],
-            "description": "Historic New Castle served as the colonial capital of Delaware until 1777 and provides valuable stories of our country's earliest settlers and founding fathers. The museum is closed on state holidays.",
-            "standardHours": {
-              "wednesday": "10:00AM - 4:30PM",
-              "monday": "Closed",
-              "thursday": "10:00AM - 4:30PM",
-              "sunday": "1:30PM - 4:30PM",
-              "tuesday": "10:00AM - 4:30PM",
-              "friday": "10:00AM - 4:30PM",
-              "saturday": "10:00AM - 4:30PM"
-            },
-            "name": "New Castle Court House Museum"
-          },
-          {
-            "exceptions": [
-              {
-                "exceptionHours": {
-                  "wednesday": "Closed",
-                  "monday": "Closed",
-                  "thursday": "Closed",
-                  "sunday": "Closed",
-                  "tuesday": "Closed",
-                  "friday": "Closed",
-                  "saturday": "Closed"
-                },
-                "startDate": "2020-03-24",
-                "name": "Temporary Restricted Hours",
-                "endDate": "2020-07-15"
-              }
-            ],
-            "description": "Home to John Dickinson, known as the \"penman of the Revolution\" because his writings helped inspire colonial opposition to Great Britain, this site was built in 1739 and located about 6 miles southeast of The Green in Dover.",
-            "standardHours": {
-              "wednesday": "10:00AM - 4:30PM",
-              "monday": "Closed",
-              "thursday": "10:00AM - 4:30PM",
-              "sunday": "Closed",
-              "tuesday": "10:00AM - 4:30PM",
-              "friday": "10:00AM - 4:30PM",
-              "saturday": "10:00AM - 4:30PM"
-            },
-            "name": "John Dickinson Plantation"
-          },
-          {
-            "exceptions": [
-              {
-                "exceptionHours": {
-                  "wednesday": "Closed",
-                  "monday": "Closed",
-                  "thursday": "Closed",
-                  "sunday": "Closed",
-                  "tuesday": "Closed",
-                  "friday": "Closed",
-                  "saturday": "Closed"
-                },
-                "startDate": "2020-03-24",
-                "name": "Closed Due to COVID-19",
-                "endDate": "2020-07-15"
-              }
-            ],
-            "description": "This house, built in 1665 in Lewes, Delaware by early Dutch settlers, is thought to be built thirty years after the destruction of the nearby ill-fated Zwaanendael colony, one of the first Dutch settlements in America, and first European settlement in Delaware. Please visit a the \"Hours of Operations\" page to view a list of dates and hours the house will be open for tours. \n\nPlease visit the Operating Hours & Seasons page for more information: https://www.nps.gov/frst/planyourvisit/hours.htm",
-            "standardHours": {
-              "wednesday": "12:00PM - 4:00PM",
-              "monday": "12:00PM - 4:00PM",
-              "thursday": "12:00PM - 4:00PM",
-              "sunday": "12:00PM - 4:00PM",
-              "tuesday": "12:00PM - 4:00PM",
-              "friday": "12:00PM - 4:00PM",
-              "saturday": "12:00PM - 4:00PM"
-            },
-            "name": "Ryves Holt House"
-          },
-          {
-            "exceptions": [
-              {
-                "exceptionHours": {
-                  "wednesday": "9:00AM - 4:30PM",
-                  "monday": "9:00AM - 4:30PM",
-                  "thursday": "9:00AM - 4:30PM",
-                  "sunday": "Closed",
-                  "tuesday": "9:00AM - 4:30PM",
-                  "friday": "9:00AM - 4:30PM",
-                  "saturday": "9:00AM - 4:30PM"
-                },
-                "startDate": "2020-06-11",
-                "name": "Hours of Operation for First State Heritage Park",
-                "endDate": "2020-12-28"
-              },
-              {
-                "exceptionHours": {
-                  "wednesday": "9:00AM - 4:30PM",
-                  "monday": "9:00AM - 4:30PM",
-                  "thursday": "9:00AM - 4:30PM",
-                  "sunday": "1:30PM - 4:00AM",
-                  "tuesday": "9:00AM - 4:30PM",
-                  "friday": "9:00AM - 4:30PM",
-                  "saturday": "9:00AM - 4:30PM"
-                },
-                "startDate": "2020-06-11",
-                "name": "Hours of Operation for The Old State House",
-                "endDate": "2020-12-28"
-              }
-            ],
-            "description": "On December 7, 1787, state delegates met on The Green at the Golden Fleece tavern. At this meeting Delaware became the first state to ratify the US Constitution.",
-            "standardHours": {
-              "wednesday": "Sunrise to Sunset",
-              "monday": "Sunrise to Sunset",
-              "thursday": "Sunrise to Sunset",
-              "sunday": "Sunrise to Sunset",
-              "tuesday": "Sunrise to Sunset",
-              "friday": "Sunrise to Sunset",
-              "saturday": "Sunrise to Sunset"
-            },
-            "name": "The Dover Green"
+            "name": "Minidoka National Historic Site"
           }
         ],
         "topics": [
-          {
-            "id": "990E22A2-20D8-4CC2-8E6C-D2DF165BCDA5",
-            "name": "American Revolutionary War"
-          },
-          {
-            "id": "607D41B0-F830-4C07-A557-BCEF880A3929",
-            "name": "Burial, Cemetery and Gravesite"
-          },
-          {
-            "id": "98F41FDF-B73F-4B68-8010-53CCB2891E3B",
-            "name": "Churches"
-          },
-          {
-            "id": "7F12224B-217A-4B07-A4A2-636B1CE7F221",
-            "name": "Colonization and Settlement"
-          },
-          {
-            "id": "D9FC6D14-F8C7-4EBA-86EA-DFD99B6BB4F5",
-            "name": "Enslavement"
-          },
-          {
-            "id": "1F833C99-A75D-4F9E-9256-B96523485466",
-            "name": "Farming and  Agriculture"
-          },
-          {
-            "id": "41B1A0A3-11FF-4F55-9CB9-034A7E28B087",
-            "name": "Forests and Woodlands"
-          },
-          {
-            "id": "988B4AFC-F478-4673-B66D-E6BDB0CCFF35",
-            "name": "Forts"
-          },
           {
             "id": "351EE154-87AA-46B0-BBA1-ED604368ACE9",
             "name": "Incarceration"
           },
           {
-            "id": "50A3D2B2-C922-4749-89F1-E986A5D520AC",
-            "name": "Jails and Prisons"
+            "id": "367BC636-6F02-4F1B-BEAA-5A20E46C7207",
+            "name": "Japanese-American Internment"
           },
           {
-            "id": "4C9D4777-A9DA-47D1-A0B9-F4A3C98BC1B3",
-            "name": "Maritime"
-          },
-          {
-            "id": "BEB7E470-13B2-4E00-84B2-0402D98DAF69",
-            "name": "Monuments and Memorials"
-          },
-          {
-            "id": "F67CA03D-109F-44B9-9B63-D9EC9FD77A1D",
-            "name": "Plantations"
-          },
-          {
-            "id": "518B32FB-339D-4C52-B2C2-04BF406AA4B0",
-            "name": "Religion and Spirituality"
-          },
-          {
-            "id": "40C0866A-3890-41A4-84CA-5935DEE181AE",
-            "name": "Social Movements"
-          },
-          {
-            "id": "5BE55D7F-BDB6-4E3D-AC35-2D8EBB974417",
-            "name": "Trails"
-          },
-          {
-            "id": "846E5C56-E5AC-489C-B3BF-11F4C73F12C2",
-            "name": "Urban America"
-          },
-          {
-            "id": "27BF8807-54EA-4A3D-B073-AA7AA361CD7E",
-            "name": "Wars and Conflicts"
-          },
-          {
-            "id": "7DA81DAB-5045-4953-9C20-36590AD9FA95",
-            "name": "Women's History"
+            "id": "74869FAE-8DFD-4454-847F-11FDDB679F94",
+            "name": "World War II"
           }
         ],
-        "latLong": "lat:39.83076929, long:-75.56353942",
-        "description": "Famous as the First State to ratify the Constitution, Delaware was born out of a conflict among three world powers for dominance of the Delaware Valley.  From this beginning, the region developed a distinct character that tolerated diversity in religion and national origin and valued independence.",
+        "latLong": "lat:42.80586068, long:-114.4449868",
+        "description": "The Pearl Harbor attack intensified existing hostility towards Japanese Americans. As wartime hysteria mounted, President Roosevelt signed Executive Order 9066 forcing over 120,000 West Coast persons of Japanese ancestry (Nikkei) to leave their homes, jobs, and lives behind, forcing them into one of ten prison camps spread across the nation because of their ethnicity.  \n\nThis is Minidoka's story.",
         "images": [
           {
             "credit": "NPS Photo",
-            "altText": "Fall day in Beaver Valley",
-            "title": "Fall in Beaver Valley",
-            "caption": "Fall in Beaver Valley means crisp morning air, maybe a little frost on the grass, and definitely picturesque views throughout the park.",
-            "url": "https://www.nps.gov/common/uploads/structured_data/34AD3AB4-1DD8-B71B-0B334721555D1A18.jpg"
+            "altText": "Origami cranes twirl on carousel",
+            "title": "Origami Go Around",
+            "caption": "Origami cranes twirl on a colorful carousel.",
+            "url": "https://www.nps.gov/common/uploads/structured_data/3C874621-1DD8-B71B-0B29C1E739E9977F.jpg"
           },
           {
             "credit": "NPS Photo",
-            "altText": "A view of the back of the John Dickinson House on the Plantation.",
-            "title": "John Dickinson Plantation",
-            "caption": "A view of the back of the John Dickinson House on the Plantation.",
-            "url": "https://www.nps.gov/common/uploads/structured_data/BEAD404F-1DD8-B71B-0B3324BE4EFD6BFD.jpg"
-          }
-        ],
-        "designation": "National Historical Park",
-        "parkCode": "frst",
-        "addresses": [
-          {
-            "postalCode": "19720",
-            "city": "New Castle",
-            "stateCode": "DE",
-            "line1": "New Castle Court House Museum",
-            "type": "Mailing",
-            "line3": "211 Delaware Street",
-            "line2": "Attn: First State NHP"
+            "altText": "The replicated Minidoka Honor Roll is part of the history at Minidoka NHS.",
+            "title": "The Replicated Minidoka Honor Roll",
+            "caption": "The replicated Minidoka Honor Roll is part of the history at Minidoka NHS.",
+            "url": "https://www.nps.gov/common/uploads/structured_data/3C87F4CF-1DD8-B71B-0BEC68909801B45D.jpg"
           },
           {
-            "postalCode": "19720",
-            "city": "New Castle",
-            "stateCode": "DE",
-            "line1": "New Castle Court House Museum",
-            "type": "Physical",
-            "line3": "",
-            "line2": "211 Delaware Street"
+            "credit": "NPS Photo",
+            "altText": "A view from Minidoka through the barbed wire fence.",
+            "title": "View Across the Barbed Wire",
+            "caption": "A view from Minidoka through the barbed wire fence.",
+            "url": "https://www.nps.gov/common/uploads/structured_data/3C87FD67-1DD8-B71B-0BD40ECD281047FC.jpg"
+          },
+          {
+            "credit": "NPS Photo",
+            "altText": "A view of the Northside Canal and reconstructed barbed wire fence.",
+            "title": "Looking at the northside Canal",
+            "caption": "Looking northeast from the entrance area to the Northside Canal and reconstructed barbed wire fence.",
+            "url": "https://www.nps.gov/common/uploads/structured_data/3C87FF9B-1DD8-B71B-0B8BF59A9E00F279.jpg"
+          },
+          {
+            "credit": "NPS Photo",
+            "altText": "An original barrack was retuned to Minidoka and placed on site.",
+            "title": "An Original Barrack Returns to the Site",
+            "caption": "An original barrack was retuned to Minidoka and placed on site.",
+            "url": "https://www.nps.gov/common/uploads/structured_data/3C8801A7-1DD8-B71B-0B72513C885927BE.jpg"
           }
         ],
-        "id": "7861C177-A600-4B37-B217-E9E64DC04F34",
-        "fullName": "First State National Historical Park",
-        "latitude": "39.83076929"
+        "designation": "National Historic Site",
+        "parkCode": "miin",
+        "addresses": [
+          {
+            "postalCode": "83332",
+            "city": "Hagerman",
+            "stateCode": "ID",
+            "line1": "PO Box 570",
+            "type": "Mailing",
+            "line3": "",
+            "line2": ""
+          },
+          {
+            "postalCode": "83338",
+            "city": "Jerome",
+            "stateCode": "ID",
+            "line1": "1428 Hunt Road",
+            "type": "Physical",
+            "line3": "",
+            "line2": ""
+          }
+        ],
+        "id": "FE52067B-EBB9-4FD2-B613-FE778985BAD9",
+        "fullName": "Minidoka National Historic Site",
+        "latitude": "42.80586068"
       },
       "weather": {
-        "lat": 39.83,
-        "lon": -75.56,
-        "timezone": "America/New_York",
-        "timezone_offset": -14400,
+        "lat": 42.81,
+        "lon": -114.44,
+        "timezone": "America/Boise",
+        "timezone_offset": -21600,
         "daily": [
           {
-            "dt": 1591894800,
-            "sunrise": 1591868013,
-            "sunset": 1591921838,
+            "dt": 1591902000,
+            "sunrise": 1591876739,
+            "sunset": 1591931778,
             "temp": {
-              "day": 76.86,
-              "min": 70.27,
-              "max": 76.98,
-              "night": 70.27,
-              "eve": 76.98,
-              "morn": 76.86
+              "day": 73.4,
+              "min": 69.55,
+              "max": 73.4,
+              "night": 69.55,
+              "eve": 73.4,
+              "morn": 73.4
             },
             "feels_like": {
-              "day": 80.83,
-              "night": 69.44,
-              "eve": 80.62,
-              "morn": 80.83
+              "day": 65.21,
+              "night": 60.76,
+              "eve": 65.21,
+              "morn": 65.21
             },
-            "pressure": 1017,
-            "humidity": 88,
-            "dew_point": 73.02,
-            "wind_speed": 9.33,
-            "wind_deg": 292,
+            "pressure": 1016,
+            "humidity": 24,
+            "dew_point": 34.47,
+            "wind_speed": 8.86,
+            "wind_deg": 103,
             "weather": [
               {
-                "id": 500,
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+              }
+            ],
+            "clouds": 1,
+            "uvi": 10.4
+          },
+          {
+            "dt": 1591988400,
+            "sunrise": 1591963133,
+            "sunset": 1592018207,
+            "temp": {
+              "day": 89.92,
+              "min": 62.42,
+              "max": 91.89,
+              "night": 70.92,
+              "eve": 91.89,
+              "morn": 62.42
+            },
+            "feels_like": {
+              "day": 75.65,
+              "night": 61.02,
+              "eve": 78.1,
+              "morn": 50.95
+            },
+            "pressure": 1012,
+            "humidity": 12,
+            "dew_point": 26.51,
+            "wind_speed": 18.61,
+            "wind_deg": 181,
+            "weather": [
+              {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04d"
+              }
+            ],
+            "clouds": 96,
+            "uvi": 8.48
+          },
+          {
+            "dt": 1592074800,
+            "sunrise": 1592049529,
+            "sunset": 1592104635,
+            "temp": {
+              "day": 64.47,
+              "min": 46.18,
+              "max": 64.47,
+              "night": 46.18,
+              "eve": 61.14,
+              "morn": 55.45
+            },
+            "feels_like": {
+              "day": 51.55,
+              "night": 41.67,
+              "eve": 52.07,
+              "morn": 43.14
+            },
+            "pressure": 1012,
+            "humidity": 29,
+            "dew_point": 32.11,
+            "wind_speed": 16.49,
+            "wind_deg": 241,
+            "weather": [
+              {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04d"
+              }
+            ],
+            "clouds": 87,
+            "uvi": 8.51
+          },
+          {
+            "dt": 1592161200,
+            "sunrise": 1592135927,
+            "sunset": 1592191061,
+            "temp": {
+              "day": 57.74,
+              "min": 41.81,
+              "max": 57.74,
+              "night": 41.81,
+              "eve": 57.63,
+              "morn": 45.99
+            },
+            "feels_like": {
+              "day": 43.79,
+              "night": 37.67,
+              "eve": 45.88,
+              "morn": 40.33
+            },
+            "pressure": 1013,
+            "humidity": 49,
+            "dew_point": 39.06,
+            "wind_speed": 20.4,
+            "wind_deg": 269,
+            "weather": [
+              {
+                "id": 501,
                 "main": "Rain",
-                "description": "light rain",
+                "description": "moderate rain",
                 "icon": "10d"
               }
             ],
-            "clouds": 90,
-            "rain": 0.65,
-            "uvi": 10.77
+            "clouds": 87,
+            "rain": 3.49,
+            "uvi": 9.78
           },
           {
-            "dt": 1591981200,
-            "sunrise": 1591954409,
-            "sunset": 1592008266,
+            "dt": 1592247600,
+            "sunrise": 1592222327,
+            "sunset": 1592277485,
             "temp": {
-              "day": 81.5,
-              "min": 64.2,
-              "max": 81.5,
-              "night": 64.2,
-              "eve": 75.45,
-              "morn": 70.3
+              "day": 65.44,
+              "min": 38.95,
+              "max": 73.71,
+              "night": 58.37,
+              "eve": 73.71,
+              "morn": 38.95
             },
             "feels_like": {
-              "day": 77.11,
-              "night": 57.58,
-              "eve": 74.44,
-              "morn": 67.08
+              "day": 59.27,
+              "night": 51.91,
+              "eve": 64.8,
+              "morn": 33.3
             },
-            "pressure": 1018,
-            "humidity": 37,
-            "dew_point": 53.4,
-            "wind_speed": 9.28,
-            "wind_deg": 304,
+            "pressure": 1015,
+            "humidity": 27,
+            "dew_point": 26.49,
+            "wind_speed": 4.27,
+            "wind_deg": 181,
+            "weather": [
+              {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04d"
+              }
+            ],
+            "clouds": 76,
+            "uvi": 9.74
+          },
+          {
+            "dt": 1592334000,
+            "sunrise": 1592308729,
+            "sunset": 1592363907,
+            "temp": {
+              "day": 64.29,
+              "min": 46.9,
+              "max": 66.9,
+              "night": 46.9,
+              "eve": 64.94,
+              "morn": 48.74
+            },
+            "feels_like": {
+              "day": 48.67,
+              "night": 39.09,
+              "eve": 49.35,
+              "morn": 41.23
+            },
+            "pressure": 1013,
+            "humidity": 36,
+            "dew_point": 37.24,
+            "wind_speed": 22.75,
+            "wind_deg": 277,
+            "weather": [
+              {
+                "id": 801,
+                "main": "Clouds",
+                "description": "few clouds",
+                "icon": "02d"
+              }
+            ],
+            "clouds": 22,
+            "uvi": 9.35
+          },
+          {
+            "dt": 1592420400,
+            "sunrise": 1592395134,
+            "sunset": 1592450327,
+            "temp": {
+              "day": 66.2,
+              "min": 40.78,
+              "max": 74.82,
+              "night": 54.81,
+              "eve": 74.82,
+              "morn": 40.78
+            },
+            "feels_like": {
+              "day": 56.91,
+              "night": 49.68,
+              "eve": 68.4,
+              "morn": 33.69
+            },
+            "pressure": 1016,
+            "humidity": 27,
+            "dew_point": 29.75,
+            "wind_speed": 9.95,
+            "wind_deg": 274,
             "weather": [
               {
                 "id": 800,
@@ -1951,31 +1839,31 @@
               }
             ],
             "clouds": 0,
-            "uvi": 10.08
+            "uvi": 8.19
           },
           {
-            "dt": 1592067600,
-            "sunrise": 1592040807,
-            "sunset": 1592094692,
+            "dt": 1592506800,
+            "sunrise": 1592481540,
+            "sunset": 1592536745,
             "temp": {
-              "day": 70.86,
-              "min": 59.56,
-              "max": 72.95,
-              "night": 61.05,
-              "eve": 67.5,
-              "morn": 59.56
+              "day": 71.67,
+              "min": 50.41,
+              "max": 79.29,
+              "night": 57.78,
+              "eve": 77.4,
+              "morn": 50.41
             },
             "feels_like": {
-              "day": 65.84,
-              "night": 54.37,
-              "eve": 63.79,
-              "morn": 51.58
+              "day": 63.99,
+              "night": 51.84,
+              "eve": 68.86,
+              "morn": 44.28
             },
-            "pressure": 1021,
-            "humidity": 37,
-            "dew_point": 43.86,
-            "wind_speed": 6.17,
-            "wind_deg": 339,
+            "pressure": 1007,
+            "humidity": 31,
+            "dew_point": 40.24,
+            "wind_speed": 9.51,
+            "wind_deg": 236,
             "weather": [
               {
                 "id": 803,
@@ -1985,212 +1873,38 @@
               }
             ],
             "clouds": 52,
-            "uvi": 9.23
-          },
-          {
-            "dt": 1592154000,
-            "sunrise": 1592127206,
-            "sunset": 1592181116,
-            "temp": {
-              "day": 61.39,
-              "min": 55.17,
-              "max": 68.9,
-              "night": 61.07,
-              "eve": 64.71,
-              "morn": 55.17
-            },
-            "feels_like": {
-              "day": 57.22,
-              "night": 57.25,
-              "eve": 61.12,
-              "morn": 50.05
-            },
-            "pressure": 1026,
-            "humidity": 64,
-            "dew_point": 49.17,
-            "wind_speed": 7.14,
-            "wind_deg": 33,
-            "weather": [
-              {
-                "id": 500,
-                "main": "Rain",
-                "description": "light rain",
-                "icon": "10d"
-              }
-            ],
-            "clouds": 98,
-            "rain": 1.69,
-            "uvi": 9.18
-          },
-          {
-            "dt": 1592240400,
-            "sunrise": 1592213608,
-            "sunset": 1592267539,
-            "temp": {
-              "day": 63.37,
-              "min": 60.1,
-              "max": 64.44,
-              "night": 60.1,
-              "eve": 61.16,
-              "morn": 62.69
-            },
-            "feels_like": {
-              "day": 59.67,
-              "night": 58.12,
-              "eve": 57.99,
-              "morn": 58.08
-            },
-            "pressure": 1025,
-            "humidity": 73,
-            "dew_point": 54.9,
-            "wind_speed": 9.08,
-            "wind_deg": 83,
-            "weather": [
-              {
-                "id": 500,
-                "main": "Rain",
-                "description": "light rain",
-                "icon": "10d"
-              }
-            ],
-            "clouds": 100,
-            "rain": 2.61,
-            "uvi": 9.28
-          },
-          {
-            "dt": 1592326800,
-            "sunrise": 1592300011,
-            "sunset": 1592353960,
-            "temp": {
-              "day": 70.86,
-              "min": 60.94,
-              "max": 72.57,
-              "night": 63.03,
-              "eve": 66.6,
-              "morn": 60.94
-            },
-            "feels_like": {
-              "day": 66.54,
-              "night": 61.41,
-              "eve": 63.9,
-              "morn": 58.12
-            },
-            "pressure": 1026,
-            "humidity": 62,
-            "dew_point": 57.33,
-            "wind_speed": 11.7,
-            "wind_deg": 79,
-            "weather": [
-              {
-                "id": 804,
-                "main": "Clouds",
-                "description": "overcast clouds",
-                "icon": "04d"
-              }
-            ],
-            "clouds": 100,
-            "uvi": 9.55
-          },
-          {
-            "dt": 1592413200,
-            "sunrise": 1592386416,
-            "sunset": 1592440379,
-            "temp": {
-              "day": 68.38,
-              "min": 63.48,
-              "max": 68.38,
-              "night": 63.88,
-              "eve": 66.04,
-              "morn": 64.2
-            },
-            "feels_like": {
-              "day": 66.07,
-              "night": 64,
-              "eve": 65.3,
-              "morn": 62.8
-            },
-            "pressure": 1023,
-            "humidity": 74,
-            "dew_point": 59.95,
-            "wind_speed": 9.73,
-            "wind_deg": 78,
-            "weather": [
-              {
-                "id": 500,
-                "main": "Rain",
-                "description": "light rain",
-                "icon": "10d"
-              }
-            ],
-            "clouds": 100,
-            "rain": 0.27,
-            "uvi": 9.22
-          },
-          {
-            "dt": 1592499600,
-            "sunrise": 1592472823,
-            "sunset": 1592526797,
-            "temp": {
-              "day": 73.9,
-              "min": 64.85,
-              "max": 77.52,
-              "night": 66.7,
-              "eve": 73.26,
-              "morn": 64.85
-            },
-            "feels_like": {
-              "day": 75.69,
-              "night": 70.54,
-              "eve": 77.52,
-              "morn": 63.93
-            },
-            "pressure": 1017,
-            "humidity": 77,
-            "dew_point": 66.52,
-            "wind_speed": 7.2,
-            "wind_deg": 73,
-            "weather": [
-              {
-                "id": 501,
-                "main": "Rain",
-                "description": "moderate rain",
-                "icon": "10d"
-              }
-            ],
-            "clouds": 99,
-            "rain": 11.58,
-            "uvi": 9.37
+            "uvi": 8.97
           }
         ]
       },
       "attractions": [
         {
-          "id": 6,
-          "name": "Largest Fork in the US",
-          "state": "CO",
-          "city": "Creede",
-          "picture": "https://cdn.5280.com/2016/05/5280_creede_fork_della_brown.jpg",
-          "description": "Creede, Colorado, is home to the largest fork in the United States. The enormous sculpture by Ted Yund is over 40 feet long and weights over 600 pounds, breaking the record of the previous world’s largest fork, which was in Springfield, Missouri.",
+          "id": 11,
+          "name": "White House Replica",
+          "state": "GA",
+          "city": "Atlanta",
+          "picture": "https://media-cdn.tripadvisor.com/media/photo-s/0b/70/1a/e4/white-house-replica-atlanta.jpg",
+          "description": "Want to see the White House without having to go to D.C.? Consider traveling to Atlanta, where they have a replica three-quarters the size! The mini White House used to offer tours of its replica of the Oval Office and the Lincoln bedroom, but now it’s a private home.",
           "amenities": {
             "souvenirs": false,
-            "restrooms": false
+            "restrooms": true
           }
         }
       ],
       "eateries": [
         {
-          "businessName": "Louis' Lunch",
-          "description": "There's a lot of debate as to who invented the hamburger as we know it today, but that debate kind of ends at Louis' Lunch, mainly because it's tired of arguing about it, but also because the Library of Congress declared it so. The tiny joint still uses its original cast-iron grills, which cook the hand-ground patties vertically by blasting them with fire. Want ketchup and mustard? Head to one of the other places that claim to have invented the burger: at Louis', your options are cheese, tomato, and onion on toast. That's the way it's been since it 'invented' the burger back in the day, and that's how it'll always be.",
-          "state": "CT",
-          "city": "New Haven",
-          "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Louis_Lunch_-_Classic_Diner_-_New_Haven_-_CT_-_USA_(7088657091).jpg/1200px-Louis_Lunch_-_Classic_Diner_-_New_Haven_-_CT_-_USA_(7088657091).jpg",
-          "id": 8,
+          "businessName": "Deer Park Tavern",
+          "description": "While that one scene in Wayne's World helped define Delaware for an entire generation, every generation of Delawareans knows Deer Park as a historic spot where Edgar Allan Poe once hung out in the 1800s, right before he founded the Baltimore Ravens football team. It continues to operate as a Newark staple -- a place where townies and college students alike enjoy burgers, nachos, and a pint of local-ish Dogfish Head.",
+          "state": "DE",
+          "city": "Newark",
+          "picture": "https://i.ytimg.com/vi/_jvWMTIzuv4/maxresdefault.jpg",
+          "id": 9,
           "amenities": {
-            "wheelchairAccessible": true,
+            "wheelchairAccessible": false,
             "petFriendly": false,
             "wifi": true,
             "diaperFacility": true,
-            "playground": false,
+            "playground": true,
             "restrooms": true
           }
         }

@@ -15,14 +15,16 @@ const clearParkDropdown = () => parkTypeDropdown.innerHTML = ""
 stateTypeDropdown.addEventListener("change", (changeEvent) => {
     //get the value chosen by the user
     const userChoice = changeEvent.target.value
-
+    document.getElementById("state").disabled = true
     //clear array
     clearParkArray()
     clearParkDropdown()
     //refill array and refill the park list
     parkQuery = "https://developer.nps.gov/api/v1/parks?stateCode=" + userChoice + `&api_key=${keys.npsKey}`
-    getParkData().then((response) => displayParkList(response))
-
+    getParkData().then((response) => displayParkList(response)).then(() => {
+    document.getElementById("state").disabled = false
+    document.getElementById("park__dropdown").disabled = false})
+    
     //send data to userChoice global variable
 
 })
@@ -46,6 +48,10 @@ parkTypeDropdown.addEventListener("change", (changeEvent) => {
 
     //call weather forecast
     getWeather(natPark.latitude, natPark.longitude)
+    console.log(natPark, attractionSelectionArray, eaterySelectedCollection)
+    if(natPark != undefined) {
+        document.getElementById("attractions__dropdown").disabled = false
+    }
 
 })
 

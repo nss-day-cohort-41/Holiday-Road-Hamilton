@@ -1,4 +1,5 @@
 const eventList = (eventsObject) => {
+    console.log(eventsObject)
     const eventsHTML= eventsConverter(eventsObject)
     const eventsDivElement= document.querySelector(".event__details")
     eventsDivElement.innerHTML += eventsHTML

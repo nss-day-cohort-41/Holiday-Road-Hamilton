@@ -1,6 +1,11 @@
 
 let postObject = {}
 let eventCompare = ""
+document.getElementById("save__button").disabled = true
+document.getElementById("attractions__dropdown").disabled = true
+document.getElementById("eatery__dropdown").disabled = true
+document.getElementById("park__dropdown").disabled = true
+
 const deleteItenerary = () => {
 return fetch(`http://localhost:8088/itineraries`).then(
     (response) => response.json())
@@ -29,6 +34,7 @@ const API = {
 }
 const eventCreator = (compare) =>{
     return fetch("http://localhost:8088/itineraries").then(response => response.json()).then((response) => {
+        console.log(response)
                     for (const place of response) {
                         if (compare === place.parks.parkCode) {
                             return fetch(`https://developer.nps.gov/api/v1/events?&api_key=${keys.npsKey}`)
@@ -36,6 +42,7 @@ const eventCreator = (compare) =>{
                             .then((event) => {
                                 console.log(event)
                                 for (let number = 0; number < 3; number ++) {
+                                    console.log(event.data[number])
                                 eventList(event.data[number])
                                 }
                             })
@@ -45,14 +52,16 @@ const eventCreator = (compare) =>{
 }
 
 saveButton.addEventListener("click", (clickEvent) => {
+    
     postObject.parks = natPark;
     postObject.weather = weatherArray
     postObject.attractions = attractionSelectionArray
     postObject.eateries = eaterySelectedCollection
     eventCompare = postObject.parks.parkCode
-    API.saveItineraryEntry(postObject)
+    API.saveItineraryEntry(postObject).then(() => {
+        eventCreator(eventCompare)
+    })
     itinerariesList(postObject)
-    eventCreator(eventCompare)
     const parkDivElement = document.querySelector(".preview__parks")
     parkDivElement.innerHTML = ""
     clearAttractionsList()
@@ -62,7 +71,7 @@ saveButton.addEventListener("click", (clickEvent) => {
     const weatherdivelement= document.querySelector(".weathercontainer")
     weatherdivelement.innerHTML = ""
 
-}        
+}   
 )
 
 
