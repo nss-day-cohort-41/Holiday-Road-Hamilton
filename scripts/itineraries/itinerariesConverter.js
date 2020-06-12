@@ -37,8 +37,13 @@ const itinerariesConverter = (itinerariesObject) => {
 
     const eventsConverter=(eventsObject) =>{    
       return `
-      <p>Event: ${eventsObject.title}<br>
-      ${eventsObject.description}</p>
+      <p>Event: ${eventsObject.title}<br><br>
+      Start Date: ${eventsObject.datestart}<br><br>
+      Start Time: ${eventsObject.times[0].timestart}<br><br>
+      End Time: ${eventsObject.times[0].timeend}<br><br>
+      End Date: ${eventsObject.dateend}<br><br>
+      Description: ${eventsObject.description}<br>
+      Fee Info: ${eventsObject.feeinfo}</p>
       `
     }
     
