@@ -1,5 +1,7 @@
 let eateryCollection = [];
 let eaterySelectedCollection = [];
+let handiSelectedCollection = [];
+let wheelchairFlag = true;
 
 const eateryAPI = {
     getEateries () {

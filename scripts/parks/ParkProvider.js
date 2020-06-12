@@ -8,6 +8,7 @@ let natPark = {}
 let e = document.getElementById("state")
 let stateValue = e.options[e.selectedIndex].value
 
+
 let parkQuery = "https://developer.nps.gov/api/v1/parks?stateCode=" + stateValue + `&api_key=${keys.npsKey}`
 
 //wheelchair amenity query

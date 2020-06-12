@@ -26,6 +26,8 @@ stateTypeDropdown.addEventListener("change", (changeEvent) => {
     document.getElementById("park__dropdown").disabled = false})
     
     //send data to userChoice global variable
+    enableDisableButton("parkWCAButton","enable")
+
 
 })
 
