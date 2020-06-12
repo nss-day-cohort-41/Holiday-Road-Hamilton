@@ -328,6 +328,11 @@ select {
     background-color: #2d609b;
 }
 
-/* .hidden__details{
+.hidden__details{
     display: none;
-} */
+}
+
+.event__details {
+    color: aliceblue;
+    font-size: 1vr;
+}
