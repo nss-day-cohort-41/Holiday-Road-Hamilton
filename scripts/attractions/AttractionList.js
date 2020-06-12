@@ -1,7 +1,9 @@
 const attractionTypeDropdown = document.querySelector(".attractions__dropdown")
 const contentTarget = document.querySelector(".preview__attractions")
+
 const clearAttractionsList = () => contentTarget.innerHTML = ""
 let attractionSelectionArray = []
+
 
 attractionTypeDropdown.addEventListener("change", changeEvent  => {
     // Get the value of the option chosen by the user
@@ -18,9 +20,13 @@ attractionTypeDropdown.addEventListener("change", changeEvent  => {
             
             
             displayAttractionPreview(attractionSelectionArray)
+            if(attractionSelectionArray != undefined) {
+                document.getElementById("eatery__dropdown").disabled = false
+            }
+            
         }
     }
-    
+   
 })
 
 const previewAttractions = document.querySelector(".preview__attractions");

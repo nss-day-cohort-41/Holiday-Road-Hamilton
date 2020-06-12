@@ -47,6 +47,9 @@ eateryDropdown.addEventListener("change", (clickEvent) => {
     }
     
     displayEateriesPreview(eaterySelectedCollection);
+    if(eaterySelectedCollection != null) {
+        document.getElementById("save__button").disabled = false
+    }
     }
     
 )
