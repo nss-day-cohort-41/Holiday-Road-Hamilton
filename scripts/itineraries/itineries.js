@@ -63,7 +63,6 @@ saveButton.addEventListener("click", (clickEvent) => {
     API.saveItineraryEntry(postObject).then(() => {
         eventCreator()
     })
-    console.log(eventCompare)
     itinerariesList(postObject)
     const parkDivElement = document.querySelector(".preview__parks")
     parkDivElement.innerHTML = ""
