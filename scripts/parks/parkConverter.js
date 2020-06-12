@@ -40,7 +40,7 @@ const parkPreviewConverter = (parkPreviewObject) => {
                 <strong>${parkPreviewObject.fullName}</strong><br>
                 Contact Info: ${parkPreviewObject.contacts.phoneNumbers[0].phoneNumber}<br>
                 Description: ${parkPreviewObject.description}<br>
-                Location: ${parkPreviewObject.addresses[0].city}, ${parkPreviewObject.addresses[0].stateCode}<br>
+                Location: ${parkPreviewObject.addresses[0].city}, ${parkPreviewObject.addresses[0].stateCode}       <button onclick="checkCellFunction()">Check Cell Service</button><br>
                 Activities: ${activitiesStr}
                <div class="div__close--park">Click Close button by park Picture to Close</div>
             </div>
