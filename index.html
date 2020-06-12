@@ -12,10 +12,20 @@
         <h1 class="banner__header">Holiday Road Itinerary Planner</h1>
     </header>
     <main class="container__main">
-       
+        <div class="header__upper">
+            <div class="header__left__upper">
+                <div class="instructions__header__parks">1 - Start Here - Pick a Park</div>
+                <div class="instructions__header">2 - Now Pick Attractions</div>
+                <div class="instructions__header">3 - Finally, Find Something to Eat</div>
+                <div class="instructions__header__itineraries">4 - Check Your Saved Itineraries Here</div>
+            </div>       
+        </div>
+        
+
         <div class="container__upper">
-            
+           
             <div class="container__left__upper">
+               
                 <div class="parks__list">
                     <label for="state">State & Parks Lists</label>
                     <br><select class="stateChoice" id="state" name="state">
@@ -74,22 +84,27 @@
                     </select>
                     <!-- <input type="checkbox" name="wheelchairBox" id="wheelchairBox">
                     <label for="wheelchairBox">Wheelchair Accessibility</label> -->
-                    <br><select class="parkChoice">
+                    <br><select class="parkChoice" id="park__dropdown">
                         <option value="">Select a Park</option>
                     </select>
-                    <button onclick="compareWheelchair()">Wheelchair</button>
+                    <button class="accessible" id="parkWCAButton" onclick="compareWheelchair()">Wheelchair Accessible</button>
                     <!-- list stuff here -->
                 </div>
                 <div class="attractions__list">
                     <label for="attractions__dropdown">Attractions List</label>
-                    <select name="attractions__dropdown" id="attractions" class="attractions__dropdown">
+                    <select name="attractions__dropdown" id="attractions__dropdown" class="attractions__dropdown">
                         <option value="Select an Attraction">Select an Attraction</option>
                     </select>
                     <!-- list stuff here -->
                 </div>
                 <div class="eateries__list">
                     <label for="eatery__dropdown">Eatery List</label>
-                    <select id="eatery__dropdown" name="eatery__dropdown"></select>
+                    <select id="eatery__dropdown" name="eatery__dropdown"></select><br>
+                    <label class="accessible" for="eateryWCA">Wheelchair Accessible List</label>
+                    <input type="checkbox" id="eateryWCA" name="eateryWCA" value="eateryWCA"><br>
+                    <label class="accessible" for="eateryWCA">WiFi Avail List</label>
+                    <input type="checkbox" id="eateryWCA" name="eateryWCA" value="eateryWCA">
+                    
                     <!-- list stuff here -->
                 </div>
             </div>
@@ -125,13 +140,13 @@
                             <!-- Eatery HTML Inserted Here -->
                         </article>
                     </div>
-                    <button name="saveItinerary" class="button button__saveItinerary">Save My Itinerary</button>
+                    <button name="saveItinerary" class="button button__saveItinerary" id="save__button">Save My Itinerary</button>
                     <!-- button here -->
                 </div>
             <div class="container__right__lower">
                 <aside class="aside__saved__itineraries">
                     <!-- Card HTML for Conversion  -->
-                    
+
                 </aside>
             </div>
         </div>

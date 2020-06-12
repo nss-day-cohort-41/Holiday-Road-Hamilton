@@ -8,11 +8,16 @@ const itinerariesConverter = (itinerariesObject) => {
         <div class="itineraries__box">
           <h3>Your Itinerary</h3>
           <p>Park: ${itinerariesObject.parks.name}</p>
-          <p class="itinerary__attractions"></p>
-          <p class="itinerary__eateries"></p>
+          <p class="itinerary__attractions__${itinerariesObject.parks.id}"></p>
+          <p class="itinerary__eateries__${itinerariesObject.parks.id}"></p>
         </div>
 
         </div>
+        </div>
+        <button name="events__button" class="button__events__${itinerariesObject.parks.parkCode}" id="${itinerariesObject.parks.parkCode}">Events</button>
+        <div class="event__details hidden__details" id="details__${itinerariesObject.parks.parkCode}">
+          <p class="event__details>
+          </p>
         </div>
     </section>
       `
@@ -27,6 +32,13 @@ const itinerariesConverter = (itinerariesObject) => {
     const itinerariesEateriesConverter=(itinerariesEateriesObject,counter) =>{    
       return `
       <p>Eatery: ${itinerariesEateriesObject[counter].businessName}</p>
+      `
+    }
+
+    const eventsConverter=(eventsObject) =>{    
+      return `
+      <p>Event: ${eventsObject.title}<br>
+      ${eventsObject.description}</p>
       `
     }
     
