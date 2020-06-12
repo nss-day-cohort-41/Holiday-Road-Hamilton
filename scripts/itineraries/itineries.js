@@ -1,6 +1,6 @@
 
 let postObject = {}
-let eventCompare = ""
+let eventCompare = " "
 document.getElementById("save__button").disabled = true
 document.getElementById("attractions__dropdown").disabled = true
 document.getElementById("eatery__dropdown").disabled = true
@@ -34,16 +34,18 @@ const API = {
 }
 const eventCreator = (compare) =>{
     return fetch("http://localhost:8088/itineraries").then(response => response.json()).then((response) => {
-        
                     for (const place of response) {
-                        if (compare === place.parks.parkCode) {
-                            return fetch(`https://developer.nps.gov/api/v1/events?&api_key=${keys.npsKey}`)
+                        if (eventCompare === place.parks.parkCode) {
+                            return fetch("https://developer.nps.gov/api/v1/events?parkCode=" + eventCompare + "&pageSize=50&api_key=" + keys.npsKey)
                             .then(response => response.json())
                             .then((event) => {
-        
-                                for (let number = 0; number < 3; number ++) {
-        
-                                eventList(event.data[number])
+                                    noEventList()
+                                for (let number of event.data) {
+                                   if (eventCompare === number.sitecode) {
+                                        eventList(number)
+                                   }
+                                   
+                                
                                 }
                             })
                     }
@@ -59,7 +61,7 @@ saveButton.addEventListener("click", (clickEvent) => {
     postObject.eateries = eaterySelectedCollection
     eventCompare = postObject.parks.parkCode
     API.saveItineraryEntry(postObject).then(() => {
-        eventCreator(eventCompare)
+        eventCreator()
     })
     itinerariesList(postObject)
     const parkDivElement = document.querySelector(".preview__parks")
