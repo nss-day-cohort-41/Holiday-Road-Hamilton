@@ -34,15 +34,15 @@ const API = {
 }
 const eventCreator = (compare) =>{
     return fetch("http://localhost:8088/itineraries").then(response => response.json()).then((response) => {
-        console.log(response)
+        
                     for (const place of response) {
                         if (compare === place.parks.parkCode) {
                             return fetch(`https://developer.nps.gov/api/v1/events?&api_key=${keys.npsKey}`)
                             .then(response => response.json())
                             .then((event) => {
-                                console.log(event)
+        
                                 for (let number = 0; number < 3; number ++) {
-                                    console.log(event.data[number])
+        
                                 eventList(event.data[number])
                                 }
                             })

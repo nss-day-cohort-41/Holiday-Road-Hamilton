@@ -1,5 +1,5 @@
 const eventList = (eventsObject) => {
-    console.log(eventsObject)
+    
     const eventsHTML= eventsConverter(eventsObject)
     const eventsDivElement= document.querySelector(".event__details")
     eventsDivElement.innerHTML += eventsHTML
@@ -16,16 +16,16 @@ const itinerariesList = (itineraries) =>{
         let eaterycounter = -1
 
         for (const attraction of itineraries.attractions){
-            console.log(itineraries.attractions)
+            
             attractioncounter++
             const itinerariesAttractionsHTML= itinerariesAttractionsConverter(itineraries.attractions,attractioncounter)
-            console.log(itineraries.parks.name)
+            
             const itinerariesattractionsdivelement= document.querySelector(`.itinerary__attractions__${itineraries.parks.id}`)
             itinerariesattractionsdivelement.innerHTML += itinerariesAttractionsHTML
         }
 
         for (const eatery of itineraries.eateries){
-            console.log(itineraries.eateries)
+            
             eaterycounter++
             const itinerariesEateriesHTML= itinerariesEateriesConverter(itineraries.eateries,eaterycounter)
             const itinerarieseateriesdivelement= document.querySelector(`.itinerary__eateries__${itineraries.parks.id}`)
