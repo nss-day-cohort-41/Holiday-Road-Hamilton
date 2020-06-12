@@ -16,7 +16,7 @@ const populateEaterySelect = () => {
                     
                     if (amenity === "wheelchairAccessible" & eateryObject.amenities[amenity] === true) {
                         wheelCtr++;
-                        console.log(`WheelchairAccessible Eateries: ${wheelCtr}`)
+                        //console.log(`WheelchairAccessible Eateries: ${wheelCtr}`)
                         return eateryDropdown.innerHTML += `<option value="${eateryObject.id}">${eateryObject['businessName']}</option>`;
                     }
                 }
