@@ -31,7 +31,6 @@ const parkPreviewConverter = (parkPreviewObject) => {
         <h1>${parkPreviewObject.fullName}</h1>
         <img class="park__pic" src="${parkPreviewPics[0].url}" alt="${parkPreviewPics[0].altText}" />
         </div>
-    <div class ="div__park__desc">${parkPreviewObject.description}</div>
     <button name="details__button" class="button__details--park" id="parkPreviewButton">Details</button>
     </section>
     
@@ -39,8 +38,9 @@ const parkPreviewConverter = (parkPreviewObject) => {
         <div class="modal__details--park" id="modal__park__details">
             <div class="modal__content--park">
                 <strong>${parkPreviewObject.fullName}</strong><br>
+                Contact Info: ${parkPreviewObject.contacts.phoneNumbers[0].phoneNumber}<br>
                 Description: ${parkPreviewObject.description}<br>
-                Location: ${parkPreviewObject.addresses[0].city}, ${parkPreviewObject.addresses[0].stateCode}<br>
+                Location: ${parkPreviewObject.addresses[0].city}, ${parkPreviewObject.addresses[0].stateCode}       <button onclick="checkCellFunction()">Check Cell Service</button><br>
                 Activities: ${activitiesStr}
                <div class="div__close--park">Click Close button by park Picture to Close</div>
             </div>

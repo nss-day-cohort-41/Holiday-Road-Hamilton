@@ -81,12 +81,15 @@
                         <option value="wi">Wisconsin</option>
                         <option value="wy">Wyoming</option>
                     </select>
-                    <!-- <input type="checkbox" name="wheelchairBox" id="wheelchairBox">
-                    <label for="wheelchairBox">Wheelchair Accessibility</label> -->
                     <br><select class="parkChoice" id="park__dropdown">
                         <option value="">Select a Park</option>
                     </select>
-                    <button class="accessible" id="parkWCAButton" onclick="compareWheelchair()">Wheelchair Accessible</button>
+                    <button class="accessible" id="parkWCAButton" onclick="compareWheelchair()">
+                        <span title="Click me to highlight handicap accessible parks!">
+                            <img id="handicapPic" src="images/handicap.png" alt="">
+                        </span>
+                    </button>
+                    </button>
                     <!-- list stuff here -->
                 </div>
                 <div class="attractions__list">
